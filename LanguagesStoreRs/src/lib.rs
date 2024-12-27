@@ -9,8 +9,9 @@ extern crate savefile_derive;
 
 #[derive(Serialize, Deserialize, Debug, EnumIter, PartialEq, Eq, Hash, Clone, Savefile)]
 pub enum TargetLanguage {
-    //Arabic,
+    Arabic,
     Bulgarian,
+    Croatian,
     Czech,
     Danish,
     German,
@@ -38,18 +39,19 @@ pub enum TargetLanguage {
     Swedish,
     Turkish,
     Ukrainian,
-    Chinese,
+    Chinese, // implied Simplified - it used to be the only one
+    ChineseTraditional,
     Hebrew,
     Esperanto,
     Persian,
     Hawaiian,
+    LatinClassical,
 }
 
 impl TargetLanguage {
     pub fn from_wiktionary_language_code(code: &str) -> Option<Self> {
         match code {
-            // Uncomment and add more languages as needed
-            //"ar" => Some(TargetLanguage::Arabic),
+            "ar" => Some(TargetLanguage::Arabic),
             "bg" => Some(TargetLanguage::Bulgarian),
             "cs" => Some(TargetLanguage::Czech),
             "da" => Some(TargetLanguage::Danish),
@@ -83,12 +85,15 @@ impl TargetLanguage {
             "eo" => Some(TargetLanguage::Esperanto),
             "fa" => Some(TargetLanguage::Persian),
             "haw" => Some(TargetLanguage::Hawaiian),
+            "sh" => Some(TargetLanguage::Croatian),
+            "la" => Some(TargetLanguage::LatinClassical),
             _ => None, // Return None if the code doesn't match any language
         }
     }
 
     pub fn to_wiktionary_language_code(&self) -> String {
         match self {
+            TargetLanguage::Arabic => "ar".to_string(),
             TargetLanguage::Bulgarian => "bg".to_string(),
             TargetLanguage::Czech => "cs".to_string(),
             TargetLanguage::Danish => "da".to_string(),
@@ -117,16 +122,19 @@ impl TargetLanguage {
             TargetLanguage::Swedish => "sv".to_string(),
             TargetLanguage::Turkish => "tr".to_string(),
             TargetLanguage::Ukrainian => "uk".to_string(),
-            TargetLanguage::Chinese => "zh".to_string(),
             TargetLanguage::Hebrew => "he".to_string(),
             TargetLanguage::Esperanto => "eo".to_string(),
             TargetLanguage::Persian => "fa".to_string(),
             TargetLanguage::Hawaiian => "haw".to_string(),
+            TargetLanguage::Chinese | TargetLanguage::ChineseTraditional => "zh".to_string(), // chinese and chinese trad are handled weirdly
+            TargetLanguage::Croatian => "sh".to_string(), // Comes under "Serbo-Croat" in the English wiktionary
+            TargetLanguage::LatinClassical => "la".to_string(),
         }
     }
 
     pub fn to_wiktionary_long_name(&self) -> &'static str {
         match self {
+            TargetLanguage::Arabic => "Arabic",
             TargetLanguage::Bulgarian => "Bulgarian",
             TargetLanguage::Czech => "Czech",
             TargetLanguage::Danish => "Danish",
@@ -155,17 +163,19 @@ impl TargetLanguage {
             TargetLanguage::Swedish => "Swedish",
             TargetLanguage::Turkish => "Turkish",
             TargetLanguage::Ukrainian => "Ukrainian",
-            TargetLanguage::Chinese => "Chinese",
+            TargetLanguage::Chinese | TargetLanguage::ChineseTraditional => "Chinese",
             TargetLanguage::Hebrew => "Hebrew",
             TargetLanguage::Esperanto => "Esperanto",
             TargetLanguage::Persian => "Persian",
             TargetLanguage::Hawaiian => "Hawaiian",
+            TargetLanguage::Croatian => "Croatian",
+            TargetLanguage::LatinClassical => "Latin",
         }
     }
 
-    pub fn to_nice_format(&self) -> &'static str {
+    pub fn to_extension_technical_format(&self) -> &'static str {
         match &self {
-            //TargetLanguage::Arabic => "Arabic",
+            TargetLanguage::Arabic => "Arabic",
             TargetLanguage::Bulgarian => "Bulgarian",
             TargetLanguage::Czech => "Czech",
             TargetLanguage::Danish => "Danish",
@@ -195,16 +205,62 @@ impl TargetLanguage {
             TargetLanguage::Turkish => "Turkish",
             TargetLanguage::Ukrainian => "Ukrainian",
             TargetLanguage::Chinese => "Chinese",
+            TargetLanguage::ChineseTraditional => "ChineseTraditional",
             TargetLanguage::Hebrew => "Hebrew",
             TargetLanguage::Esperanto => "Esperanto",
             TargetLanguage::Persian => "Persian",
             TargetLanguage::Hawaiian => "Hawaiian",
+            TargetLanguage::Croatian => "Croatian",
+            TargetLanguage::LatinClassical => "LatinClassical",
         }
     }
 
+    pub fn to_llm_format(&self) -> &'static str {
+        match &self {
+            TargetLanguage::Arabic => "ArabicStandard",
+            TargetLanguage::Bulgarian => "Bulgarian",
+            TargetLanguage::Czech => "Czech",
+            TargetLanguage::Danish => "Danish",
+            TargetLanguage::German => "German",
+            TargetLanguage::Greek => "Greek",
+            TargetLanguage::Spanish => "Spanish",
+            TargetLanguage::Estonian => "Estonian",
+            TargetLanguage::Finnish => "Finnish",
+            TargetLanguage::French => "French",
+            TargetLanguage::Hungarian => "Hungarian",
+            TargetLanguage::Indonesian => "Indonesian",
+            TargetLanguage::Italian => "Italian",
+            TargetLanguage::Japanese => "Japanese",
+            TargetLanguage::Korean => "Korean",
+            TargetLanguage::Lithuanian => "Lithuanian",
+            TargetLanguage::Latvian => "Latvian",
+            TargetLanguage::Norwegian => "Norwegian",
+            TargetLanguage::Dutch => "Dutch",
+            TargetLanguage::Polish => "Polish",
+            TargetLanguage::PortuguesePortugal => "PortuguesePortugal",
+            TargetLanguage::PortugueseBrazil => "PortugueseBrazil",
+            TargetLanguage::Romanian => "Romanian",
+            TargetLanguage::Russian => "Russian",
+            TargetLanguage::Slovakian => "Slovakian",
+            TargetLanguage::Slovenian => "Slovenian",
+            TargetLanguage::Swedish => "Swedish",
+            TargetLanguage::Turkish => "Turkish",
+            TargetLanguage::Ukrainian => "Ukrainian",
+            TargetLanguage::Chinese => "ChineseSimplified",
+            TargetLanguage::ChineseTraditional => "ChineseTraditional",
+            TargetLanguage::Hebrew => "Hebrew",
+            TargetLanguage::Esperanto => "Esperanto",
+            TargetLanguage::Persian => "Persian",
+            TargetLanguage::Hawaiian => "Hawaiian",
+            TargetLanguage::Croatian => "Croatian",
+            TargetLanguage::LatinClassical => "LatinClassical",
+        }
+    }
+
+    // also used for the db
     pub fn to_deepl_format(&self) -> &str {
         match self {
-            //TargetLanguage::Arabic => "AR",
+            TargetLanguage::Arabic => "AR",
             TargetLanguage::Bulgarian => "BG",
             TargetLanguage::Czech => "CS",
             TargetLanguage::Danish => "DA",
@@ -234,10 +290,13 @@ impl TargetLanguage {
             TargetLanguage::Turkish => "TR",
             TargetLanguage::Ukrainian => "UK",
             TargetLanguage::Chinese => "ZH",
+            TargetLanguage::ChineseTraditional => "ZH-HANT",
             TargetLanguage::Hebrew => "HE",
             TargetLanguage::Esperanto => "EO",
             TargetLanguage::Persian => "FA",
             TargetLanguage::Hawaiian => "HAW",
+            TargetLanguage::Croatian => "HR", // stored as hrvatski, despite wiktionary considering it serbo-croat
+            TargetLanguage::LatinClassical => "LT",
         }
     }
 }
