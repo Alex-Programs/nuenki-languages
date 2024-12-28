@@ -296,7 +296,7 @@ impl TargetLanguage {
             TargetLanguage::Persian => "FA",
             TargetLanguage::Hawaiian => "HAW",
             TargetLanguage::Croatian => "HR", // stored as hrvatski, despite wiktionary considering it serbo-croat
-            TargetLanguage::LatinClassical => "LT",
+            TargetLanguage::LatinClassical => "LA",
         }
     }
 }
