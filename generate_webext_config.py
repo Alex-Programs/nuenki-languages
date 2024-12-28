@@ -10,7 +10,7 @@ def generate_webext_config(languages):
         obj["rtl"] = language.is_rtl
         obj["dict"] = language.supports_dicts
         obj["prefer_dict"] = language.prefers_dicts
-        obj["features"] = language.clientside_features
+        obj["features"] = [x.to_dict() for x in language.clientside_features]
 
         out.append(obj)
 

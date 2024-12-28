@@ -68,3 +68,50 @@ supports_dicts = false
 prefers_dicts = false
 additional_tags = []
 clientside_features = []
+
+[Croatian]
+technical_name = "Croatian"
+database_name = "HR"
+llm_name = "Croatian"
+picker_name = "Croatian 🇭🇷"
+casual_name = "Croatian"
+weblist_topname = "Croatian"
+flag_code = "HR"
+supports_deepl = false
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+
+[Czech]
+technical_name = "Czech"
+database_name = "CS"
+deepl_name = "CS"
+llm_name = "Czech"
+picker_name = "Czech 🇨🇿"
+casual_name = "Czech"
+weblist_topname = "Czech"
+flag_code = "CZ"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+
+[Danish]
+technical_name = "Danish"
+database_name = "DA"
+deepl_name = "DA"
+llm_name = "Danish"
+picker_name = "Danish 🇩🇰"
+casual_name = "Danish"
+weblist_topname = "Danish"
+flag_code = "DK"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []

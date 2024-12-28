@@ -1,7 +1,8 @@
 import toml
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict, field
 from typing import Optional
 from enum import Enum
+import json
 from generate_webext_config import generate_webext_config
 
 
@@ -16,6 +17,12 @@ class Tag:
     category: TagCategory
     text: str
 
+    def to_dict(self):
+        return {
+            "category": self.category.value,  # Convert Enum to its value
+            "text": self.text,
+        }
+
 
 @dataclass
 class ClientsideFeature:
@@ -25,6 +32,9 @@ class ClientsideFeature:
     default: any
     predicated: Optional[str]
 
+    def to_dict(self):
+        return asdict(self)
+
 
 @dataclass
 class Language:
@@ -32,8 +42,8 @@ class Language:
     database_name: str
     deepl_name: Optional[str]
     llm_name: str
-    picker_name: str  # emojis etc, used in the picker
-    casual_name: str  # used in the demo's text
+    picker_name: str
+    casual_name: str
     weblist_topname: str
     weblist_subname: Optional[str]
     flag_code: str
@@ -41,15 +51,25 @@ class Language:
     is_rtl: bool
     supports_dicts: bool
     prefers_dicts: bool
-    additional_tags: list[Tag]
-    clientside_features: list[ClientsideFeature]
+    additional_tags: list[Tag] = field(default_factory=list)
+    clientside_features: list[ClientsideFeature] = field(default_factory=list)
+
+    def to_dict(self):
+        return {
+            **asdict(self),
+            "additional_tags": [tag.to_dict() for tag in self.additional_tags],
+            "clientside_features": [
+                feature.to_dict() for feature in self.clientside_features
+            ],
+        }
 
 
+# Load TOML and parse into objects
 with open("languages.toml") as f:
     text = f.read()
     data = toml.loads(text)
 
-    languages = []
+languages = []
 
 for key, language_data in data.items():
     additional_tags = [
@@ -87,6 +107,11 @@ for key, language_data in data.items():
     )
     languages.append(language)
 
-print(languages)
+# Convert to JSON-serializable dictionaries
+languages_json_ready = [language.to_dict() for language in languages]
 
+# Serialize to JSON
+print(json.dumps(languages_json_ready, indent=2))
+
+# Pass serialized data to `generate_webext_config`
 generate_webext_config(languages)
