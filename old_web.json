@@ -1,0 +1,475 @@
+"languages": [
+    {
+        "technical": "Arabic",
+        "demolist": "Arabic 🇪🇬",
+        "fancy": "Arabic",
+        "subfancy": "(Standard)",
+        "flag_code": "EG",
+        "tags": [],
+        "ignore": false
+    },
+    {
+        "technical": "Bulgarian",
+        "demolist": "Bulgarian 🇧🇬",
+        "fancy": "Bulgarian",
+        "flag_code": "BG",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Chinese",
+        "demolist": "Chinese (Simplified) 🇨🇳",
+        "fancy": "Chinese",
+        "subfancy": "(Simplified)",
+        "flag_code": "CN",
+        "tags": [
+            {
+                "text": "Optional Pinyin",
+                "type": "Good"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "ChineseTraditional",
+        "demolist": "Chinese (Traditional) 🇹🇼",
+        "fancy": "Chinese",
+        "subfancy": "(Traditional)",
+        "flag_code": "TW",
+        "tags": [],
+        "ignore": false
+    },
+    {
+        "technical": "Croatian",
+        "demolist": "Croatian 🇭🇷",
+        "fancy": "Croatian",
+        "flag_code": "HR",
+        "tags": [
+            {
+                "text": "Experimental",
+                "type": "WARNING"
+            },
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Czech",
+        "demolist": "Czech 🇨🇿",
+        "fancy": "Czech",
+        "flag_code": "CZ",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Danish",
+        "demolist": "Danish 🇩🇰",
+        "fancy": "Danish",
+        "flag_code": "DK",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Dutch",
+        "demolist": "Dutch 🇳🇱",
+        "fancy": "Dutch",
+        "flag_code": "NL",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Esperanto",
+        "demolist": "Esperanto 🟢",
+        "fancy": "Esperanto",
+        "flag_code": "EO",
+        "tags": [
+            {
+                "text": "Experimental",
+                "type": "WARNING"
+            },
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Estonian",
+        "demolist": "Estonian 🇪🇪",
+        "fancy": "Estonian",
+        "flag_code": "EE",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Finnish",
+        "demolist": "Finnish 🇫🇮",
+        "fancy": "Finnish",
+        "flag_code": "FI",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "French",
+        "demolist": "French 🇫🇷",
+        "fancy": "French",
+        "flag_code": "FR",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "German",
+        "demolist": "German 🇩🇪",
+        "fancy": "German",
+        "flag_code": "DE",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Greek",
+        "demolist": "Greek 🇬🇷",
+        "fancy": "Greek",
+        "flag_code": "GR",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Hawaiian",
+        "demolist": "Hawaiian",
+        "fancy": "Hawaiian",
+        "flag_code": "HW",
+        "tags": [
+            {
+                "text": "Experimental",
+                "type": "WARNING"
+            }
+        ],
+        "ignore": true
+    },
+    {
+        "technical": "Hebrew",
+        "demolist": "Hebrew 🇮🇱",
+        "fancy": "Hebrew",
+        "flag_code": "IL",
+        "tags": [
+            {
+                "text": "Experimental",
+                "type": "WARNING"
+            },
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Hungarian",
+        "demolist": "Hungarian 🇭🇺",
+        "fancy": "Hungarian",
+        "flag_code": "HU",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Indonesian",
+        "demolist": "Indonesian 🇮🇩",
+        "fancy": "Indonesian",
+        "flag_code": "ID",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Italian",
+        "demolist": "Italian 🇮🇹",
+        "fancy": "Italian",
+        "flag_code": "IT",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Japanese",
+        "demolist": "Japanese 🇯🇵",
+        "fancy": "Japanese",
+        "flag_code": "JP",
+        "tags": [
+            {
+                "text": "Optional Furigana",
+                "type": "Good"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Korean",
+        "demolist": "Korean 🇰🇷",
+        "fancy": "Korean",
+        "flag_code": "KR",
+        "tags": [],
+        "ignore": false
+    },
+    {
+        "technical": "LatinClassical",
+        "demolist": "Latin 🏛️🦅",
+        "fancy": "Latin",
+        "subfancy": "(Classical)",
+        "flag_code": "LA_nb",
+        "tags": [
+            {
+                "text": "Experimental",
+                "type": "WARNING"
+            },
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Latvian",
+        "demolist": "Latvian 🇱🇻",
+        "fancy": "Latvian",
+        "flag_code": "LV",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Lithuanian",
+        "demolist": "Lithuanian 🇱🇹",
+        "fancy": "Lithuanian",
+        "flag_code": "LT",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Norwegian",
+        "demolist": "Norwegian 🇳🇴",
+        "fancy": "Norwegian",
+        "flag_code": "NO",
+        "tags": [],
+        "ignore": false
+    },
+    {
+        "technical": "Persian",
+        "demolist": "Persian 🇮🇷",
+        "fancy": "Persian",
+        "flag_code": "IR",
+        "tags": [
+            {
+                "text": "Experimental",
+                "type": "WARNING"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Polish",
+        "demolist": "Polish 🇵🇱",
+        "fancy": "Polish",
+        "flag_code": "PL",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "PortugueseBrazil",
+        "demolist": "Portuguese (BR) 🇧🇷",
+        "fancy": "Portuguese",
+        "subfancy": "(Brazil)",
+        "flag_code": "BR",
+        "tags": [],
+        "ignore": false
+    },
+    {
+        "technical": "PortuguesePortugal",
+        "demolist": "Portuguese (PT) 🇵🇹",
+        "fancy": "Portuguese",
+        "subfancy": "(Portugal)",
+        "flag_code": "PT",
+        "tags": [],
+        "ignore": false
+    },
+    {
+        "technical": "Romanian",
+        "demolist": "Romanian 🇷🇴",
+        "fancy": "Romanian",
+        "flag_code": "RO",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Russian",
+        "demolist": "Russian 🇷🇺",
+        "fancy": "Russian",
+        "flag_code": "RU",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Slovakian",
+        "demolist": "Slovakian 🇸🇰",
+        "fancy": "Slovakian",
+        "flag_code": "SK",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Slovenian",
+        "demolist": "Slovenian 🇸🇮",
+        "fancy": "Slovenian",
+        "flag_code": "SI",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Spanish",
+        "demolist": "Spanish 🇪🇸",
+        "fancy": "Spanish",
+        "flag_code": "ES",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Swedish",
+        "demolist": "Swedish 🇸🇪",
+        "fancy": "Swedish",
+        "flag_code": "SE",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Turkish",
+        "demolist": "Turkish 🇹🇷",
+        "fancy": "Turkish",
+        "flag_code": "TR",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    },
+    {
+        "technical": "Ukrainian",
+        "demolist": "Ukrainian 🇺🇦",
+        "fancy": "Ukrainian",
+        "flag_code": "UA",
+        "tags": [
+            {
+                "text": "Dictionary",
+                "type": "GOOD"
+            }
+        ],
+        "ignore": false
+    }
+],

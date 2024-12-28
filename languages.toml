@@ -1,0 +1,70 @@
+
+[Arabic]
+technical_name = "Arabic"
+database_name = "AR"
+deepl_name = "AR"
+llm_name = "Arabic (Standard)"
+picker_name = "Arabic 🇪🇬"
+casual_name = "Arabic"
+weblist_topname = "Arabic"
+weblist_subname = "(Standard)"
+flag_code = "EG"               # egypt is commonly used to represent standard arabic
+supports_deepl = true
+is_rtl = true
+supports_dicts = false
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+
+[Bulgarian]
+technical_name = "Bulgarian"
+database_name = "BG"
+deepl_name = "BG"
+llm_name = "Bulgarian"
+picker_name = "Bulgarian 🇧🇬"
+casual_name = "Bulgarian"
+weblist_topname = "Bulgarian"
+flag_code = "BG"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+
+[Chinese]
+technical_name = "Chinese"
+database_name = "ZH"
+deepl_name = "ZH-HANS" # previously "ZH"
+llm_name = "Chinese (Simplified)"
+picker_name = "Chinese (Simplified) 🇨🇳"
+casual_name = "Chinese"
+weblist_topname = "Chinese"
+weblist_subname = "(Simplified)"
+flag_code = "CN"
+supports_deepl = true
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = [{ category = "GOOD", text = "Optional Pinyin" }]
+clientside_features = [
+    { type = "binary", internal = "enablePinyin", display = "Pinyin", default = true },
+    { type = "binary", internal = "fullPinyin", display = "Show Multiple Pinyins", default = false, predicated = "enablePinyin" },
+]
+
+[ChineseTraditional]
+technical_name = "ChineseTraditional"
+database_name = "ZH-HANT"
+deepl_name = "ZH-HANT"
+llm_name = "Chinese (Traditional)"
+picker_name = "Chinese (Traditional) 🇹🇼"
+casual_name = "Chinese"
+weblist_topname = "Chinese"
+weblist_subname = "(Traditional)"
+flag_code = "TW"
+supports_deepl = true
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = []
+clientside_features = []

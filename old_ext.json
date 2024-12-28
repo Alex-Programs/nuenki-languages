@@ -1,0 +1,284 @@
+[
+    {
+        "technical": "Arabic",
+        "formatted": "Arabic 🇪🇬",
+        "rtl": true,
+        "dict": false,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Bulgarian",
+        "formatted": "Bulgarian 🇧🇬",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Chinese",
+        "formatted": "Chinese (Simplified) 🇨🇳",
+        "rtl": false,
+        "dict": false,
+        "prefer_dict": false,
+        "features": [
+            {
+                "type": "binary",
+                "internal": "enablePinyin",
+                "display": "Pinyin",
+                "default": true
+            },
+            {
+                "type": "binary",
+                "internal": "fullPinyin",
+                "display": "Show Multiple Pinyins",
+                "default": false,
+                "predicated": "enablePinyin"
+            }
+        ]
+    },
+    {
+        "technical": "ChineseTraditional",
+        "formatted": "Chinese (Traditional) 🇹🇼",
+        "rtl": false,
+        "dict": false,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Croatian",
+        "formatted": "Croatian 🇭🇷",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Czech",
+        "formatted": "Czech 🇨🇿",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Danish",
+        "formatted": "Danish 🇩🇰",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Dutch",
+        "formatted": "Dutch 🇳🇱",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Esperanto",
+        "formatted": "Esperanto 🟢",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Estonian",
+        "formatted": "Estonian 🇪🇪",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Finnish",
+        "formatted": "Finnish 🇫🇮",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "French",
+        "formatted": "French 🇫🇷",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "German",
+        "formatted": "German 🇩🇪",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Greek",
+        "formatted": "Greek 🇬🇷",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Hawaiian",
+        "formatted": "Hawaiian",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Hebrew",
+        "formatted": "Hebrew 🇮🇱",
+        "rtl": true,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Hungarian",
+        "formatted": "Hungarian 🇭🇺",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Indonesian",
+        "formatted": "Indonesian 🇮🇩",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Italian",
+        "formatted": "Italian 🇮🇹",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Japanese",
+        "formatted": "Japanese 🇯🇵",
+        "rtl": false,
+        "dict": false,
+        "prefer_dict": false,
+        "features": [
+            {
+                "type": "binary",
+                "internal": "enableFurigana",
+                "display": "Furigana",
+                "default": true
+            }
+        ]
+    },
+    {
+        "technical": "Korean",
+        "formatted": "Korean 🇰🇷",
+        "rtl": false,
+        "dict": false,
+        "prefer_dict": false
+    },
+    {
+        "technical": "LatinClassical",
+        "formatted": "Latin (Classical) 🏛️🦅",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Latvian",
+        "formatted": "Latvian 🇱🇻",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Lithuanian",
+        "formatted": "Lithuanian 🇱🇹",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Norwegian",
+        "formatted": "Norwegian 🇳🇴",
+        "rtl": false,
+        "dict": false,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Persian",
+        "formatted": "Persian 🇮🇷",
+        "rtl": false,
+        "dict": false,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Polish",
+        "formatted": "Polish 🇵🇱",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "PortugueseBrazil",
+        "formatted": "Portuguese (BR) 🇧🇷",
+        "rtl": false,
+        "dict": false,
+        "prefer_dict": false
+    },
+    {
+        "technical": "PortuguesePortugal",
+        "formatted": "Portuguese (PT) 🇵🇹",
+        "rtl": false,
+        "dict": false,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Romanian",
+        "formatted": "Romanian 🇷🇴",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Russian",
+        "formatted": "Russian 🇷🇺",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Slovakian",
+        "formatted": "Slovakian 🇸🇰",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Slovenian",
+        "formatted": "Slovenian 🇸🇮",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Spanish",
+        "formatted": "Spanish 🇪🇸",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Swedish",
+        "formatted": "Swedish 🇸🇪",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    },
+    {
+        "technical": "Turkish",
+        "formatted": "Turkish 🇹🇷",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": false
+    },
+    {
+        "technical": "Ukrainian",
+        "formatted": "Ukrainian 🇺🇦",
+        "rtl": false,
+        "dict": true,
+        "prefer_dict": true
+    }
+]
