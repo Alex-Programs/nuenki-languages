@@ -2,8 +2,8 @@
     {
         "technical": "Arabic",
         "demolist": "Arabic 🇪🇬",
-        "fancy": "Arabic",
-        "subfancy": "(Standard)",
+        "title": "Arabic",
+        "subtitle": "(Standard)",
         "flag_code": "EG",
         "tags": [],
         "ignore": false
@@ -11,7 +11,7 @@
     {
         "technical": "Bulgarian",
         "demolist": "Bulgarian 🇧🇬",
-        "fancy": "Bulgarian",
+        "title": "Bulgarian",
         "flag_code": "BG",
         "tags": [
             {
@@ -24,8 +24,8 @@
     {
         "technical": "Chinese",
         "demolist": "Chinese (Simplified) 🇨🇳",
-        "fancy": "Chinese",
-        "subfancy": "(Simplified)",
+        "title": "Chinese",
+        "subtitle": "(Simplified)",
         "flag_code": "CN",
         "tags": [
             {
@@ -38,8 +38,8 @@
     {
         "technical": "ChineseTraditional",
         "demolist": "Chinese (Traditional) 🇹🇼",
-        "fancy": "Chinese",
-        "subfancy": "(Traditional)",
+        "title": "Chinese",
+        "subtitle": "(Traditional)",
         "flag_code": "TW",
         "tags": [],
         "ignore": false
@@ -47,7 +47,7 @@
     {
         "technical": "Croatian",
         "demolist": "Croatian 🇭🇷",
-        "fancy": "Croatian",
+        "title": "Croatian",
         "flag_code": "HR",
         "tags": [
             {
@@ -64,7 +64,7 @@
     {
         "technical": "Czech",
         "demolist": "Czech 🇨🇿",
-        "fancy": "Czech",
+        "title": "Czech",
         "flag_code": "CZ",
         "tags": [
             {
@@ -77,7 +77,7 @@
     {
         "technical": "Danish",
         "demolist": "Danish 🇩🇰",
-        "fancy": "Danish",
+        "title": "Danish",
         "flag_code": "DK",
         "tags": [
             {
@@ -90,7 +90,7 @@
     {
         "technical": "Dutch",
         "demolist": "Dutch 🇳🇱",
-        "fancy": "Dutch",
+        "title": "Dutch",
         "flag_code": "NL",
         "tags": [
             {
@@ -103,7 +103,7 @@
     {
         "technical": "Esperanto",
         "demolist": "Esperanto 🟢",
-        "fancy": "Esperanto",
+        "title": "Esperanto",
         "flag_code": "EO",
         "tags": [
             {
@@ -120,7 +120,7 @@
     {
         "technical": "Estonian",
         "demolist": "Estonian 🇪🇪",
-        "fancy": "Estonian",
+        "title": "Estonian",
         "flag_code": "EE",
         "tags": [
             {
@@ -133,7 +133,7 @@
     {
         "technical": "Finnish",
         "demolist": "Finnish 🇫🇮",
-        "fancy": "Finnish",
+        "title": "Finnish",
         "flag_code": "FI",
         "tags": [
             {
@@ -146,7 +146,7 @@
     {
         "technical": "French",
         "demolist": "French 🇫🇷",
-        "fancy": "French",
+        "title": "French",
         "flag_code": "FR",
         "tags": [
             {
@@ -159,7 +159,7 @@
     {
         "technical": "German",
         "demolist": "German 🇩🇪",
-        "fancy": "German",
+        "title": "German",
         "flag_code": "DE",
         "tags": [
             {
@@ -172,7 +172,7 @@
     {
         "technical": "Greek",
         "demolist": "Greek 🇬🇷",
-        "fancy": "Greek",
+        "title": "Greek",
         "flag_code": "GR",
         "tags": [
             {
@@ -185,7 +185,7 @@
     {
         "technical": "Hawaiian",
         "demolist": "Hawaiian",
-        "fancy": "Hawaiian",
+        "title": "Hawaiian",
         "flag_code": "HW",
         "tags": [
             {
@@ -198,7 +198,7 @@
     {
         "technical": "Hebrew",
         "demolist": "Hebrew 🇮🇱",
-        "fancy": "Hebrew",
+        "title": "Hebrew",
         "flag_code": "IL",
         "tags": [
             {
@@ -215,7 +215,7 @@
     {
         "technical": "Hungarian",
         "demolist": "Hungarian 🇭🇺",
-        "fancy": "Hungarian",
+        "title": "Hungarian",
         "flag_code": "HU",
         "tags": [
             {
@@ -228,7 +228,7 @@
     {
         "technical": "Indonesian",
         "demolist": "Indonesian 🇮🇩",
-        "fancy": "Indonesian",
+        "title": "Indonesian",
         "flag_code": "ID",
         "tags": [
             {
@@ -241,7 +241,7 @@
     {
         "technical": "Italian",
         "demolist": "Italian 🇮🇹",
-        "fancy": "Italian",
+        "title": "Italian",
         "flag_code": "IT",
         "tags": [
             {
@@ -254,7 +254,7 @@
     {
         "technical": "Japanese",
         "demolist": "Japanese 🇯🇵",
-        "fancy": "Japanese",
+        "title": "Japanese",
         "flag_code": "JP",
         "tags": [
             {
@@ -267,7 +267,7 @@
     {
         "technical": "Korean",
         "demolist": "Korean 🇰🇷",
-        "fancy": "Korean",
+        "title": "Korean",
         "flag_code": "KR",
         "tags": [],
         "ignore": false
@@ -275,8 +275,8 @@
     {
         "technical": "LatinClassical",
         "demolist": "Latin 🏛️🦅",
-        "fancy": "Latin",
-        "subfancy": "(Classical)",
+        "title": "Latin",
+        "subtitle": "(Classical)",
         "flag_code": "LA_nb",
         "tags": [
             {
@@ -293,7 +293,7 @@
     {
         "technical": "Latvian",
         "demolist": "Latvian 🇱🇻",
-        "fancy": "Latvian",
+        "title": "Latvian",
         "flag_code": "LV",
         "tags": [
             {
@@ -306,7 +306,7 @@
     {
         "technical": "Lithuanian",
         "demolist": "Lithuanian 🇱🇹",
-        "fancy": "Lithuanian",
+        "title": "Lithuanian",
         "flag_code": "LT",
         "tags": [
             {
@@ -319,7 +319,7 @@
     {
         "technical": "Norwegian",
         "demolist": "Norwegian 🇳🇴",
-        "fancy": "Norwegian",
+        "title": "Norwegian",
         "flag_code": "NO",
         "tags": [],
         "ignore": false
@@ -327,7 +327,7 @@
     {
         "technical": "Persian",
         "demolist": "Persian 🇮🇷",
-        "fancy": "Persian",
+        "title": "Persian",
         "flag_code": "IR",
         "tags": [
             {
@@ -340,7 +340,7 @@
     {
         "technical": "Polish",
         "demolist": "Polish 🇵🇱",
-        "fancy": "Polish",
+        "title": "Polish",
         "flag_code": "PL",
         "tags": [
             {
@@ -353,8 +353,8 @@
     {
         "technical": "PortugueseBrazil",
         "demolist": "Portuguese (BR) 🇧🇷",
-        "fancy": "Portuguese",
-        "subfancy": "(Brazil)",
+        "title": "Portuguese",
+        "subtitle": "(Brazil)",
         "flag_code": "BR",
         "tags": [],
         "ignore": false
@@ -362,8 +362,8 @@
     {
         "technical": "PortuguesePortugal",
         "demolist": "Portuguese (PT) 🇵🇹",
-        "fancy": "Portuguese",
-        "subfancy": "(Portugal)",
+        "title": "Portuguese",
+        "subtitle": "(Portugal)",
         "flag_code": "PT",
         "tags": [],
         "ignore": false
@@ -371,7 +371,7 @@
     {
         "technical": "Romanian",
         "demolist": "Romanian 🇷🇴",
-        "fancy": "Romanian",
+        "title": "Romanian",
         "flag_code": "RO",
         "tags": [
             {
@@ -384,7 +384,7 @@
     {
         "technical": "Russian",
         "demolist": "Russian 🇷🇺",
-        "fancy": "Russian",
+        "title": "Russian",
         "flag_code": "RU",
         "tags": [
             {
@@ -397,7 +397,7 @@
     {
         "technical": "Slovakian",
         "demolist": "Slovakian 🇸🇰",
-        "fancy": "Slovakian",
+        "title": "Slovakian",
         "flag_code": "SK",
         "tags": [
             {
@@ -410,7 +410,7 @@
     {
         "technical": "Slovenian",
         "demolist": "Slovenian 🇸🇮",
-        "fancy": "Slovenian",
+        "title": "Slovenian",
         "flag_code": "SI",
         "tags": [
             {
@@ -423,7 +423,7 @@
     {
         "technical": "Spanish",
         "demolist": "Spanish 🇪🇸",
-        "fancy": "Spanish",
+        "title": "Spanish",
         "flag_code": "ES",
         "tags": [
             {
@@ -436,7 +436,7 @@
     {
         "technical": "Swedish",
         "demolist": "Swedish 🇸🇪",
-        "fancy": "Swedish",
+        "title": "Swedish",
         "flag_code": "SE",
         "tags": [
             {
@@ -449,7 +449,7 @@
     {
         "technical": "Turkish",
         "demolist": "Turkish 🇹🇷",
-        "fancy": "Turkish",
+        "title": "Turkish",
         "flag_code": "TR",
         "tags": [
             {
@@ -462,7 +462,7 @@
     {
         "technical": "Ukrainian",
         "demolist": "Ukrainian 🇺🇦",
-        "fancy": "Ukrainian",
+        "title": "Ukrainian",
         "flag_code": "UA",
         "tags": [
             {

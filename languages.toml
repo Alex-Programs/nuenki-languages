@@ -1,4 +1,3 @@
-
 [Arabic]
 technical_name = "Arabic"
 database_name = "AR"
@@ -15,6 +14,8 @@ supports_dicts = false
 prefers_dicts = false
 additional_tags = []
 clientside_features = []
+wiktionary_code = "ar"
+wiktionary_name = "Arabic"
 
 [Bulgarian]
 technical_name = "Bulgarian"
@@ -31,11 +32,13 @@ supports_dicts = true
 prefers_dicts = true
 additional_tags = []
 clientside_features = []
+wiktionary_code = "bg"
+wiktionary_name = "Bulgarian"
 
 [Chinese]
 technical_name = "Chinese"
 database_name = "ZH"
-deepl_name = "ZH-HANS" # previously "ZH"
+deepl_name = "ZH"
 llm_name = "Chinese (Simplified)"
 picker_name = "Chinese (Simplified) 🇨🇳"
 casual_name = "Chinese"
@@ -51,6 +54,8 @@ clientside_features = [
     { type = "binary", internal = "enablePinyin", display = "Pinyin", default = true },
     { type = "binary", internal = "fullPinyin", display = "Show Multiple Pinyins", default = false, predicated = "enablePinyin" },
 ]
+wiktionary_code = "zh"
+wiktionary_name = "Chinese"
 
 [ChineseTraditional]
 technical_name = "ChineseTraditional"
@@ -68,6 +73,8 @@ supports_dicts = false
 prefers_dicts = false
 additional_tags = []
 clientside_features = []
+wiktionary_code = "zh"
+wiktionary_name = "Chinese"
 
 [Croatian]
 technical_name = "Croatian"
@@ -83,6 +90,8 @@ supports_dicts = true
 prefers_dicts = true
 additional_tags = []
 clientside_features = []
+wiktionary_code = "sh"
+wiktionary_name = "Serbo-Croatian"
 
 [Czech]
 technical_name = "Czech"
@@ -99,6 +108,8 @@ supports_dicts = true
 prefers_dicts = true
 additional_tags = []
 clientside_features = []
+wiktionary_code = "cs"
+wiktionary_name = "Czech"
 
 [Danish]
 technical_name = "Danish"
@@ -115,3 +126,528 @@ supports_dicts = true
 prefers_dicts = true
 additional_tags = []
 clientside_features = []
+wiktionary_code = "da"
+wiktionary_name = "Danish"
+
+[Dutch]
+technical_name = "Dutch"
+database_name = "NL"
+deepl_name = "NL"
+llm_name = "Dutch"
+picker_name = "Dutch 🇳🇱"
+casual_name = "Dutch"
+weblist_topname = "Dutch"
+flag_code = "NL"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "nl"
+wiktionary_name = "Dutch"
+
+[Esperanto]
+technical_name = "Esperanto"
+database_name = "EO"
+llm_name = "Esperanto"
+picker_name = "Esperanto 🟢"
+casual_name = "Esperanto"
+weblist_topname = "Esperanto"
+flag_code = "EO"
+supports_deepl = false
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "eo"
+wiktionary_name = "Esperanto"
+
+[Estonian]
+technical_name = "Estonian"
+database_name = "ET"
+deepl_name = "ET"
+llm_name = "Estonian"
+picker_name = "Estonian 🇪🇪"
+casual_name = "Estonian"
+weblist_topname = "Estonian"
+flag_code = "EE"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "et"
+wiktionary_name = "Estonian"
+
+[Finnish]
+technical_name = "Finnish"
+database_name = "FI"
+deepl_name = "FI"
+llm_name = "Finnish"
+picker_name = "Finnish 🇫🇮"
+casual_name = "Finnish"
+weblist_topname = "Finnish"
+flag_code = "FI"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "fi"
+wiktionary_name = "Finnish"
+
+[French]
+technical_name = "French"
+database_name = "FR"
+deepl_name = "FR"
+llm_name = "French"
+picker_name = "French 🇫🇷"
+casual_name = "French"
+weblist_topname = "French"
+flag_code = "FR"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "fr"
+wiktionary_name = "French"
+
+[German]
+technical_name = "German"
+database_name = "DE"
+deepl_name = "DE"
+llm_name = "German"
+picker_name = "German 🇩🇪"
+casual_name = "German"
+weblist_topname = "German"
+flag_code = "DE"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "de"
+wiktionary_name = "German"
+
+[Greek]
+technical_name = "Greek"
+database_name = "EL"
+deepl_name = "EL"
+llm_name = "Greek"
+picker_name = "Greek 🇬🇷"
+casual_name = "Greek"
+weblist_topname = "Greek"
+flag_code = "GR"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "el"
+wiktionary_name = "Greek"
+
+[Hebrew]
+technical_name = "Hebrew"
+database_name = "HE"
+llm_name = "Hebrew"
+picker_name = "Hebrew 🇮🇱"
+casual_name = "Hebrew"
+weblist_topname = "Hebrew"
+flag_code = "IL"
+supports_deepl = false
+is_rtl = true
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "he"
+wiktionary_name = "Hebrew"
+
+[Hungarian]
+technical_name = "Hungarian"
+database_name = "HU"
+deepl_name = "HU"
+llm_name = "Hungarian"
+picker_name = "Hungarian 🇭🇺"
+casual_name = "Hungarian"
+weblist_topname = "Hungarian"
+flag_code = "HU"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "hu"
+wiktionary_name = "Hungarian"
+
+[Indonesian]
+technical_name = "Indonesian"
+database_name = "ID"
+deepl_name = "ID"
+llm_name = "Indonesian"
+picker_name = "Indonesian 🇮🇩"
+casual_name = "Indonesian"
+weblist_topname = "Indonesian"
+flag_code = "ID"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "id"
+wiktionary_name = "Indonesian"
+
+[Italian]
+technical_name = "Italian"
+database_name = "IT"
+deepl_name = "IT"
+llm_name = "Italian"
+picker_name = "Italian 🇮🇹"
+casual_name = "Italian"
+weblist_topname = "Italian"
+flag_code = "IT"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "it"
+wiktionary_name = "Italian"
+
+[Japanese]
+technical_name = "Japanese"
+database_name = "JA"
+deepl_name = "JA"
+llm_name = "Japanese"
+picker_name = "Japanese 🇯🇵"
+casual_name = "Japanese"
+weblist_topname = "Japanese"
+flag_code = "JP"
+supports_deepl = true
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = [{ category = "GOOD", text = "Optional Furigana" }]
+clientside_features = [
+    { type = "binary", internal = "enableFurigana", display = "Furigana", default = true },
+]
+wiktionary_code = "ja"
+wiktionary_name = "Japanese"
+
+[Korean]
+technical_name = "Korean"
+database_name = "KO"
+deepl_name = "KO"
+llm_name = "Korean"
+picker_name = "Korean 🇰🇷"
+casual_name = "Korean"
+weblist_topname = "Korean"
+flag_code = "KR"
+supports_deepl = true
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "ko"
+wiktionary_name = "Korean"
+
+[LatinClassical]
+technical_name = "LatinClassical"
+database_name = "LA"
+llm_name = "Latin (Classical)"
+picker_name = "Latin (Classical) 🏛️🦅"
+casual_name = "Latin"
+weblist_topname = "Latin"
+weblist_subname = "(Classical)"
+flag_code = "LA_nb"
+supports_deepl = false
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "la"
+wiktionary_name = "Latin"
+
+[Latvian]
+technical_name = "Latvian"
+database_name = "LV"
+deepl_name = "LV"
+llm_name = "Latvian"
+picker_name = "Latvian 🇱🇻"
+casual_name = "Latvian"
+weblist_topname = "Latvian"
+flag_code = "LV"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "lv"
+wiktionary_name = "Latvian"
+
+[Lithuanian]
+technical_name = "Lithuanian"
+database_name = "LT"
+deepl_name = "LT"
+llm_name = "Lithuanian"
+picker_name = "Lithuanian 🇱🇹"
+casual_name = "Lithuanian"
+weblist_topname = "Lithuanian"
+flag_code = "LT"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "lt"
+wiktionary_name = "Lithuanian"
+
+[Norwegian]
+technical_name = "Norwegian"
+database_name = "NB"
+deepl_name = "NB"
+llm_name = "Norwegian"
+picker_name = "Norwegian 🇳🇴"
+casual_name = "Norwegian"
+weblist_topname = "Norwegian"
+flag_code = "NO"
+supports_deepl = true
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "no"
+wiktionary_name = "Norwegian"
+
+[Persian]
+technical_name = "Persian"
+database_name = "FA"
+llm_name = "Persian"
+picker_name = "Persian 🇮🇷"
+casual_name = "Persian"
+weblist_topname = "Persian"
+flag_code = "IR"
+supports_deepl = false
+is_rtl = true
+supports_dicts = false
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "fa"
+wiktionary_name = "Persian"
+
+[Polish]
+technical_name = "Polish"
+database_name = "PL"
+deepl_name = "PL"
+llm_name = "Polish"
+picker_name = "Polish 🇵🇱"
+casual_name = "Polish"
+weblist_topname = "Polish"
+flag_code = "PL"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "pl"
+wiktionary_name = "Polish"
+
+[PortugueseBrazil]
+technical_name = "PortugueseBrazil"
+database_name = "PT-BR"
+deepl_name = "PT-BR"
+llm_name = "Portuguese (Brazil)"
+picker_name = "Portuguese (BR) 🇧🇷"
+casual_name = "Portuguese"
+weblist_topname = "Portuguese"
+weblist_subname = "(Brazil)"
+flag_code = "BR"
+supports_deepl = true
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "pt-BR"
+wiktionary_name = "Portuguese (Brazil)"
+
+[PortuguesePortugal]
+technical_name = "PortuguesePortugal"
+database_name = "PT-PT"
+deepl_name = "PT-PT"
+llm_name = "Portuguese (Portugal)"
+picker_name = "Portuguese (PT) 🇵🇹"
+casual_name = "Portuguese"
+weblist_topname = "Portuguese"
+weblist_subname = "(Portugal)"
+flag_code = "PT"
+supports_deepl = true
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "pt-PT"
+wiktionary_name = "Portuguese (Portugal)"
+
+[Romanian]
+technical_name = "Romanian"
+database_name = "RO"
+deepl_name = "RO"
+llm_name = "Romanian"
+picker_name = "Romanian 🇷🇴"
+casual_name = "Romanian"
+weblist_topname = "Romanian"
+flag_code = "RO"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "ro"
+wiktionary_name = "Romanian"
+
+[Russian]
+technical_name = "Russian"
+database_name = "RU"
+deepl_name = "RU"
+llm_name = "Russian"
+picker_name = "Russian 🇷🇺"
+casual_name = "Russian"
+weblist_topname = "Russian"
+flag_code = "RU"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "ru"
+wiktionary_name = "Russian"
+
+[Slovakian]
+technical_name = "Slovakian"
+database_name = "SK"
+deepl_name = "SK"
+llm_name = "Slovakian"
+picker_name = "Slovakian 🇸🇰"
+casual_name = "Slovakian"
+weblist_topname = "Slovakian"
+flag_code = "SK"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "sk"
+wiktionary_name = "Slovakian"
+
+[Slovenian]
+technical_name = "Slovenian"
+database_name = "SL"
+deepl_name = "SL"
+llm_name = "Slovenian"
+picker_name = "Slovenian 🇸🇮"
+casual_name = "Slovenian"
+weblist_topname = "Slovenian"
+flag_code = "SI"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "sl"
+wiktionary_name = "Slovenian"
+
+[Spanish]
+technical_name = "Spanish"
+database_name = "ES"
+deepl_name = "ES"
+llm_name = "Spanish"
+picker_name = "Spanish 🇪🇸"
+casual_name = "Spanish"
+weblist_topname = "Spanish"
+flag_code = "ES"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "es"
+wiktionary_name = "Spanish"
+
+[Swedish]
+technical_name = "Swedish"
+database_name = "SV"
+deepl_name = "SV"
+llm_name = "Swedish"
+picker_name = "Swedish 🇸🇪"
+casual_name = "Swedish"
+weblist_topname = "Swedish"
+flag_code = "SE"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "sv"
+wiktionary_name = "Swedish"
+
+[Turkish]
+technical_name = "Turkish"
+database_name = "TR"
+deepl_name = "TR"
+llm_name = "Turkish"
+picker_name = "Turkish 🇹🇷"
+casual_name = "Turkish"
+weblist_topname = "Turkish"
+flag_code = "TR"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "tr"
+wiktionary_name = "Turkish"
+
+[Ukrainian]
+technical_name = "Ukrainian"
+database_name = "UK"
+deepl_name = "UK"
+llm_name = "Ukrainian"
+picker_name = "Ukrainian 🇺🇦"
+casual_name = "Ukrainian"
+weblist_topname = "Ukrainian"
+flag_code = "UA"
+supports_deepl = true
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "uk"
+wiktionary_name = "Ukrainian"

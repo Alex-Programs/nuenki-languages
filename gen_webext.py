@@ -11,6 +11,7 @@ def generate_webext_config(languages):
         obj["dict"] = language.supports_dicts
         obj["prefer_dict"] = language.prefers_dicts
         obj["features"] = [x.to_dict() for x in language.clientside_features]
+        obj["deepl"] = language.supports_deepl
 
         out.append(obj)
 
