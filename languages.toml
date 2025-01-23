@@ -271,6 +271,23 @@ clientside_features = []
 wiktionary_code = "he"
 wiktionary_name = "Hebrew"
 
+[Hindi]
+technical_name = "Hindi"
+database_name = "HI"
+llm_name = "Hindi"
+picker_name = "Hindi 🇮🇳"
+casual_name = "Hindi"
+weblist_topname = "Hindi"
+flag_code = "IN"
+supports_deepl = false
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = []
+clientside_features = []
+wiktionary_code = "hi"
+wiktionary_name = "Hindi"
+
 [Hungarian]
 technical_name = "Hungarian"
 database_name = "HU"
@@ -544,14 +561,16 @@ clientside_features = []
 wiktionary_code = "ru"
 wiktionary_name = "Russian"
 
+# was previously "Slovakian", it turns out that's not the preferred form
+# I've changed the public-facing bits while keeping the technical side the same
 [Slovakian]
 technical_name = "Slovakian"
 database_name = "SK"
 deepl_name = "SK"
-llm_name = "Slovakian"
-picker_name = "Slovakian 🇸🇰"
-casual_name = "Slovakian"
-weblist_topname = "Slovakian"
+llm_name = "Slovak"
+picker_name = "Slovak 🇸🇰"
+casual_name = "Slovak"
+weblist_topname = "Slovak"
 flag_code = "SK"
 supports_deepl = true
 is_rtl = false
@@ -560,7 +579,7 @@ prefers_dicts = false
 additional_tags = []
 clientside_features = []
 wiktionary_code = "sk"
-wiktionary_name = "Slovakian"
+wiktionary_name = "Slovak"
 
 [Slovenian]
 technical_name = "Slovenian"
