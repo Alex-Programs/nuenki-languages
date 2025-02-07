@@ -16,6 +16,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "ar"
 wiktionary_name = "Arabic"
+native_name = "العربية"
 
 [Bulgarian]
 technical_name = "Bulgarian"
@@ -34,6 +35,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "bg"
 wiktionary_name = "Bulgarian"
+native_name = "Български"
 
 [Chinese]
 technical_name = "Chinese"
@@ -56,6 +58,7 @@ clientside_features = [
 ]
 wiktionary_code = "zh"
 wiktionary_name = "Chinese"
+native_name = "中文 (简体)"
 
 [ChineseTraditional]
 technical_name = "ChineseTraditional"
@@ -75,6 +78,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "zh"
 wiktionary_name = "Chinese"
+native_name = "中文 (繁體)"
 
 [Croatian]
 technical_name = "Croatian"
@@ -92,6 +96,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "sh"
 wiktionary_name = "Serbo-Croatian"
+native_name = "Hrvatski"
 
 [Czech]
 technical_name = "Czech"
@@ -110,6 +115,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "cs"
 wiktionary_name = "Czech"
+native_name = "Čeština"
 
 [Danish]
 technical_name = "Danish"
@@ -128,6 +134,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "da"
 wiktionary_name = "Danish"
+native_name = "Dansk"
 
 [Dutch]
 technical_name = "Dutch"
@@ -146,6 +153,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "nl"
 wiktionary_name = "Dutch"
+native_name = "Nederlands"
 
 [Esperanto]
 technical_name = "Esperanto"
@@ -163,6 +171,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "eo"
 wiktionary_name = "Esperanto"
+native_name = "Esperanto"
 
 [Estonian]
 technical_name = "Estonian"
@@ -181,6 +190,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "et"
 wiktionary_name = "Estonian"
+native_name = "Eesti"
 
 [Finnish]
 technical_name = "Finnish"
@@ -199,6 +209,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "fi"
 wiktionary_name = "Finnish"
+native_name = "Suomi"
 
 [French]
 technical_name = "French"
@@ -217,12 +228,14 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "fr"
 wiktionary_name = "French"
+native_name = "Français"
 
 [German]
 technical_name = "German"
 database_name = "DE"
 deepl_name = "DE"
 llm_name = "German"
+native_name = "Deutsch"
 picker_name = "German 🇩🇪"
 casual_name = "German"
 weblist_topname = "German"
@@ -253,6 +266,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "el"
 wiktionary_name = "Greek"
+native_name = "Ελληνικά"
 
 [Hebrew]
 technical_name = "Hebrew"
@@ -270,6 +284,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "he"
 wiktionary_name = "Hebrew"
+native_name = "עברית"
 
 [Hindi]
 technical_name = "Hindi"
@@ -287,6 +302,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "hi"
 wiktionary_name = "Hindi"
+native_name = "हिन्दी"
 
 [Hungarian]
 technical_name = "Hungarian"
@@ -305,6 +321,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "hu"
 wiktionary_name = "Hungarian"
+native_name = "Magyar"
 
 [Indonesian]
 technical_name = "Indonesian"
@@ -323,6 +340,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "id"
 wiktionary_name = "Indonesian"
+native_name = "Indonesia"
 
 [Italian]
 technical_name = "Italian"
@@ -341,6 +359,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "it"
 wiktionary_name = "Italian"
+native_name = "Italiano"
 
 [Japanese]
 technical_name = "Japanese"
@@ -361,6 +380,7 @@ clientside_features = [
 ]
 wiktionary_code = "ja"
 wiktionary_name = "Japanese"
+native_name = "日本語"
 
 [Korean]
 technical_name = "Korean"
@@ -379,6 +399,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "ko"
 wiktionary_name = "Korean"
+native_name = "한국어"
 
 [LatinClassical]
 technical_name = "LatinClassical"
@@ -397,6 +418,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "la"
 wiktionary_name = "Latin"
+native_name = "Latina"
 
 [Latvian]
 technical_name = "Latvian"
@@ -415,6 +437,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "lv"
 wiktionary_name = "Latvian"
+native_name = "Latviešu"
 
 [Lithuanian]
 technical_name = "Lithuanian"
@@ -433,6 +456,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "lt"
 wiktionary_name = "Lithuanian"
+native_name = "Lietuvių"
 
 [Norwegian]
 technical_name = "Norwegian"
@@ -451,6 +475,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "no"
 wiktionary_name = "Norwegian"
+native_name = "Norsk"
 
 [Persian]
 technical_name = "Persian"
@@ -468,6 +493,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "fa"
 wiktionary_name = "Persian"
+native_name = "فارسی"
 
 [Polish]
 technical_name = "Polish"
@@ -486,6 +512,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "pl"
 wiktionary_name = "Polish"
+native_name = "Polski"
 
 [PortugueseBrazil]
 technical_name = "PortugueseBrazil"
@@ -505,6 +532,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "pt-BR"
 wiktionary_name = "Portuguese (Brazil)"
+native_name = "Português"
 
 [PortuguesePortugal]
 technical_name = "PortuguesePortugal"
@@ -524,6 +552,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "pt-PT"
 wiktionary_name = "Portuguese (Portugal)"
+native_name = "Português"
 
 [Romanian]
 technical_name = "Romanian"
@@ -542,6 +571,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "ro"
 wiktionary_name = "Romanian"
+native_name = "Română"
 
 [Russian]
 technical_name = "Russian"
@@ -560,9 +590,8 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "ru"
 wiktionary_name = "Russian"
+native_name = "Русский"
 
-# was previously "Slovakian", it turns out that's not the preferred form
-# I've changed the public-facing bits while keeping the technical side the same
 [Slovakian]
 technical_name = "Slovakian"
 database_name = "SK"
@@ -580,6 +609,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "sk"
 wiktionary_name = "Slovak"
+native_name = "Slovenčina"
 
 [Slovenian]
 technical_name = "Slovenian"
@@ -598,6 +628,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "sl"
 wiktionary_name = "Slovenian"
+native_name = "Slovenščina"
 
 [Spanish]
 technical_name = "Spanish"
@@ -616,6 +647,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "es"
 wiktionary_name = "Spanish"
+native_name = "Español"
 
 [Swedish]
 technical_name = "Swedish"
@@ -634,6 +666,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "sv"
 wiktionary_name = "Swedish"
+native_name = "Svenska"
 
 [Turkish]
 technical_name = "Turkish"
@@ -652,6 +685,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "tr"
 wiktionary_name = "Turkish"
+native_name = "Türkçe"
 
 [Ukrainian]
 technical_name = "Ukrainian"
@@ -670,3 +704,4 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "uk"
 wiktionary_name = "Ukrainian"
+native_name = "Українська"

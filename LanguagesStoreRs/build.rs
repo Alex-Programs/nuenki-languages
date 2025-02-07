@@ -20,6 +20,7 @@ fn main() {
     let mut to_deepl = Vec::new();
     let mut supports_deepl = Vec::new();
     let mut to_database = Vec::new();
+    let mut to_native = Vec::new();
 
     for (key, lang) in value.as_table().unwrap() {
         let lang = lang.as_table().unwrap();
@@ -39,6 +40,9 @@ fn main() {
 
         let llm_name = lang["llm_name"].as_str().unwrap();
         to_llm.push(quote! { TargetLanguage::#variant => #llm_name });
+
+        let native_name = lang["native_name"].as_str().unwrap();
+        to_native.push(quote! { TargetLanguage::#variant => #native_name });
 
         let deepl_name = lang
             .get("deepl_name")
@@ -94,6 +98,12 @@ fn main() {
             pub fn to_deepl_format_n(&self) -> &'static str {
                 match self {
                     #(#to_deepl,)*
+                }
+            }
+
+            pub fn to_native_name_n(&self) -> &'static str {
+                match self {
+                    #(#to_native,)*
                 }
             }
 
