@@ -49,6 +49,8 @@ for key, language_data in data:
         clientside_features=clientside_features,
         wiktionary_code=language_data["wiktionary_code"],
         wiktionary_name=language_data["wiktionary_name"],
+        native_name=language_data["native_name"],
+        is_groq_acceptable=language_data["is_groq_acceptable"],
     )
     languages.append(language)
 
