@@ -21,6 +21,7 @@ fn main() {
     let mut supports_deepl = Vec::new();
     let mut to_database = Vec::new();
     let mut to_native = Vec::new();
+    let mut groq_acceptable = Vec::new();
 
     for (key, lang) in value.as_table().unwrap() {
         let lang = lang.as_table().unwrap();
@@ -43,6 +44,9 @@ fn main() {
 
         let native_name = lang["native_name"].as_str().unwrap();
         to_native.push(quote! { TargetLanguage::#variant => #native_name });
+
+        let is_groq_acceptable_val = lang["is_groq_acceptable"].as_bool().unwrap();
+        groq_acceptable.push(quote! { TargetLanguage::#variant => #is_groq_acceptable_val });
 
         let deepl_name = lang
             .get("deepl_name")
@@ -110,6 +114,12 @@ fn main() {
             pub fn supports_deepl_n(&self) -> bool {
                 match self {
                     #(#supports_deepl,)*
+                }
+            }
+
+            pub fn is_groq_acceptable(&self) -> bool {
+                match self {
+                    #(#groq_acceptable,)*
                 }
             }
 

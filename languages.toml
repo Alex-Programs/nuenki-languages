@@ -17,6 +17,7 @@ clientside_features = []
 wiktionary_code = "ar"
 wiktionary_name = "Arabic"
 native_name = "العربية"
+is_groq_acceptable = false
 
 [Bulgarian]
 technical_name = "Bulgarian"
@@ -36,6 +37,7 @@ clientside_features = []
 wiktionary_code = "bg"
 wiktionary_name = "Bulgarian"
 native_name = "Български"
+is_groq_acceptable = false
 
 [Chinese]
 technical_name = "Chinese"
@@ -59,6 +61,7 @@ clientside_features = [
 wiktionary_code = "zh"
 wiktionary_name = "Chinese"
 native_name = "中文 (简体)"
+is_groq_acceptable = true
 
 [ChineseTraditional]
 technical_name = "ChineseTraditional"
@@ -79,6 +82,7 @@ clientside_features = []
 wiktionary_code = "zh"
 wiktionary_name = "Chinese"
 native_name = "中文 (繁體)"
+is_groq_acceptable = false
 
 [Croatian]
 technical_name = "Croatian"
@@ -97,6 +101,7 @@ clientside_features = []
 wiktionary_code = "sh"
 wiktionary_name = "Serbo-Croatian"
 native_name = "Hrvatski"
+is_groq_acceptable = false
 
 [Czech]
 technical_name = "Czech"
@@ -116,6 +121,7 @@ clientside_features = []
 wiktionary_code = "cs"
 wiktionary_name = "Czech"
 native_name = "Čeština"
+is_groq_acceptable = false
 
 [Danish]
 technical_name = "Danish"
@@ -135,6 +141,7 @@ clientside_features = []
 wiktionary_code = "da"
 wiktionary_name = "Danish"
 native_name = "Dansk"
+is_groq_acceptable = false
 
 [Dutch]
 technical_name = "Dutch"
@@ -154,6 +161,7 @@ clientside_features = []
 wiktionary_code = "nl"
 wiktionary_name = "Dutch"
 native_name = "Nederlands"
+is_groq_acceptable = false
 
 [Esperanto]
 technical_name = "Esperanto"
@@ -172,6 +180,7 @@ clientside_features = []
 wiktionary_code = "eo"
 wiktionary_name = "Esperanto"
 native_name = "Esperanto"
+is_groq_acceptable = false
 
 [Estonian]
 technical_name = "Estonian"
@@ -191,6 +200,7 @@ clientside_features = []
 wiktionary_code = "et"
 wiktionary_name = "Estonian"
 native_name = "Eesti"
+is_groq_acceptable = false
 
 [Finnish]
 technical_name = "Finnish"
@@ -210,6 +220,7 @@ clientside_features = []
 wiktionary_code = "fi"
 wiktionary_name = "Finnish"
 native_name = "Suomi"
+is_groq_acceptable = false
 
 [French]
 technical_name = "French"
@@ -229,6 +240,7 @@ clientside_features = []
 wiktionary_code = "fr"
 wiktionary_name = "French"
 native_name = "Français"
+is_groq_acceptable = true
 
 [German]
 technical_name = "German"
@@ -248,6 +260,7 @@ additional_tags = []
 clientside_features = []
 wiktionary_code = "de"
 wiktionary_name = "German"
+is_groq_acceptable = true
 
 [Greek]
 technical_name = "Greek"
@@ -267,6 +280,7 @@ clientside_features = []
 wiktionary_code = "el"
 wiktionary_name = "Greek"
 native_name = "Ελληνικά"
+is_groq_acceptable = false
 
 [Hebrew]
 technical_name = "Hebrew"
@@ -285,6 +299,7 @@ clientside_features = []
 wiktionary_code = "he"
 wiktionary_name = "Hebrew"
 native_name = "עברית"
+is_groq_acceptable = false
 
 [Hindi]
 technical_name = "Hindi"
@@ -303,6 +318,7 @@ clientside_features = []
 wiktionary_code = "hi"
 wiktionary_name = "Hindi"
 native_name = "हिन्दी"
+is_groq_acceptable = false
 
 [Hungarian]
 technical_name = "Hungarian"
@@ -322,6 +338,7 @@ clientside_features = []
 wiktionary_code = "hu"
 wiktionary_name = "Hungarian"
 native_name = "Magyar"
+is_groq_acceptable = false
 
 [Indonesian]
 technical_name = "Indonesian"
@@ -341,6 +358,7 @@ clientside_features = []
 wiktionary_code = "id"
 wiktionary_name = "Indonesian"
 native_name = "Indonesia"
+is_groq_acceptable = false
 
 [Italian]
 technical_name = "Italian"
@@ -360,6 +378,7 @@ clientside_features = []
 wiktionary_code = "it"
 wiktionary_name = "Italian"
 native_name = "Italiano"
+is_groq_acceptable = true
 
 [Japanese]
 technical_name = "Japanese"
@@ -381,6 +400,7 @@ clientside_features = [
 wiktionary_code = "ja"
 wiktionary_name = "Japanese"
 native_name = "日本語"
+is_groq_acceptable = false
 
 [Korean]
 technical_name = "Korean"
@@ -400,6 +420,7 @@ clientside_features = []
 wiktionary_code = "ko"
 wiktionary_name = "Korean"
 native_name = "한국어"
+is_groq_acceptable = false
 
 [LatinClassical]
 technical_name = "LatinClassical"
@@ -419,6 +440,7 @@ clientside_features = []
 wiktionary_code = "la"
 wiktionary_name = "Latin"
 native_name = "Latina"
+is_groq_acceptable = false
 
 [Latvian]
 technical_name = "Latvian"
@@ -438,6 +460,7 @@ clientside_features = []
 wiktionary_code = "lv"
 wiktionary_name = "Latvian"
 native_name = "Latviešu"
+is_groq_acceptable = false
 
 [Lithuanian]
 technical_name = "Lithuanian"
@@ -457,6 +480,7 @@ clientside_features = []
 wiktionary_code = "lt"
 wiktionary_name = "Lithuanian"
 native_name = "Lietuvių"
+is_groq_acceptable = false
 
 [Norwegian]
 technical_name = "Norwegian"
@@ -476,6 +500,7 @@ clientside_features = []
 wiktionary_code = "no"
 wiktionary_name = "Norwegian"
 native_name = "Norsk"
+is_groq_acceptable = false
 
 [Persian]
 technical_name = "Persian"
@@ -494,6 +519,7 @@ clientside_features = []
 wiktionary_code = "fa"
 wiktionary_name = "Persian"
 native_name = "فارسی"
+is_groq_acceptable = false
 
 [Polish]
 technical_name = "Polish"
@@ -513,6 +539,7 @@ clientside_features = []
 wiktionary_code = "pl"
 wiktionary_name = "Polish"
 native_name = "Polski"
+is_groq_acceptable = false
 
 [PortugueseBrazil]
 technical_name = "PortugueseBrazil"
@@ -533,6 +560,7 @@ clientside_features = []
 wiktionary_code = "pt-BR"
 wiktionary_name = "Portuguese (Brazil)"
 native_name = "Português"
+is_groq_acceptable = false
 
 [PortuguesePortugal]
 technical_name = "PortuguesePortugal"
@@ -553,6 +581,7 @@ clientside_features = []
 wiktionary_code = "pt-PT"
 wiktionary_name = "Portuguese (Portugal)"
 native_name = "Português"
+is_groq_acceptable = false
 
 [Romanian]
 technical_name = "Romanian"
@@ -572,6 +601,7 @@ clientside_features = []
 wiktionary_code = "ro"
 wiktionary_name = "Romanian"
 native_name = "Română"
+is_groq_acceptable = false
 
 [Russian]
 technical_name = "Russian"
@@ -591,6 +621,7 @@ clientside_features = []
 wiktionary_code = "ru"
 wiktionary_name = "Russian"
 native_name = "Русский"
+is_groq_acceptable = false
 
 [Slovakian]
 technical_name = "Slovakian"
@@ -610,6 +641,7 @@ clientside_features = []
 wiktionary_code = "sk"
 wiktionary_name = "Slovak"
 native_name = "Slovenčina"
+is_groq_acceptable = false
 
 [Slovenian]
 technical_name = "Slovenian"
@@ -629,6 +661,7 @@ clientside_features = []
 wiktionary_code = "sl"
 wiktionary_name = "Slovenian"
 native_name = "Slovenščina"
+is_groq_acceptable = false
 
 [Spanish]
 technical_name = "Spanish"
@@ -648,6 +681,7 @@ clientside_features = []
 wiktionary_code = "es"
 wiktionary_name = "Spanish"
 native_name = "Español"
+is_groq_acceptable = false
 
 [Swedish]
 technical_name = "Swedish"
@@ -667,6 +701,7 @@ clientside_features = []
 wiktionary_code = "sv"
 wiktionary_name = "Swedish"
 native_name = "Svenska"
+is_groq_acceptable = false
 
 [Turkish]
 technical_name = "Turkish"
@@ -686,6 +721,7 @@ clientside_features = []
 wiktionary_code = "tr"
 wiktionary_name = "Turkish"
 native_name = "Türkçe"
+is_groq_acceptable = false
 
 [Ukrainian]
 technical_name = "Ukrainian"
@@ -705,3 +741,4 @@ clientside_features = []
 wiktionary_code = "uk"
 wiktionary_name = "Ukrainian"
 native_name = "Українська"
+is_groq_acceptable = false
