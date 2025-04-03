@@ -35,3 +35,4 @@
 ("Swedish", "Swedish"),
 ("Turkish", "Turkish"),
 ("Ukrainian", "Ukrainian"),
+("Vietnamese", "Vietnamese"),

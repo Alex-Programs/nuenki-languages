@@ -742,3 +742,22 @@ wiktionary_code = "uk"
 wiktionary_name = "Ukrainian"
 native_name = "Українська"
 is_groq_acceptable = false
+
+[Vietnamese]
+technical_name = "Vietnamese"
+database_name = "VI"
+llm_name = "Vietnamese"
+picker_name = "Vietnamese 🇻🇳"
+casual_name = "Vietnamese"
+weblist_topname = "Vietnamese"
+flag_code = "VN"
+supports_deepl = false
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "vi"
+wiktionary_name = "Vietnamese"
+native_name = "Tiếng Việt"
+is_groq_acceptable = false
