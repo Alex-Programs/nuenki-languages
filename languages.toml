@@ -760,4 +760,4 @@ clientside_features = []
 wiktionary_code = "vi"
 wiktionary_name = "Vietnamese"
 native_name = "Tiếng Việt"
-is_groq_acceptable = false
+is_groq_acceptable = true
