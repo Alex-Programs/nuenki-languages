@@ -33,6 +33,8 @@
 ("Slovenian", "Slovenian"),
 ("Spanish", "Spanish"),
 ("Swedish", "Swedish"),
+("Thai", "Thai"),
 ("Turkish", "Turkish"),
 ("Ukrainian", "Ukrainian"),
 ("Vietnamese", "Vietnamese"),
+("Welsh", "Welsh"),

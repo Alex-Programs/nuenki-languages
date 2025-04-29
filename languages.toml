@@ -703,6 +703,25 @@ wiktionary_name = "Swedish"
 native_name = "Svenska"
 is_groq_acceptable = false
 
+[Thai]
+technical_name = "Thai"
+database_name = "TH"       # ISO 639-1 code for Thai
+llm_name = "Thai"
+picker_name = "Thai 🇹🇭"
+casual_name = "Thai"
+weblist_topname = "Thai"
+flag_code = "TH"
+supports_deepl = false
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "th"
+wiktionary_name = "Thai"
+native_name = "ภาษาไทย"
+is_groq_acceptable = false
+
 [Turkish]
 technical_name = "Turkish"
 database_name = "TR"
@@ -761,3 +780,23 @@ wiktionary_code = "vi"
 wiktionary_name = "Vietnamese"
 native_name = "Tiếng Việt"
 is_groq_acceptable = true
+
+[Welsh]
+technical_name = "Welsh"
+database_name = "CY"
+llm_name = "Welsh (Cymraeg)"
+picker_name = "Welsh (Cymraeg) 🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+casual_name = "Welsh"
+weblist_topname = "Welsh"
+weblist_subname = "(Cymraeg)"
+flag_code = "WALES"                     # no official flag code
+supports_deepl = false
+is_rtl = false
+supports_dicts = true
+prefers_dicts = true
+additional_tags = []
+clientside_features = []
+wiktionary_code = "cy"
+wiktionary_name = "Welsh"
+native_name = "Cymraeg"
+is_groq_acceptable = false
