@@ -402,6 +402,26 @@ wiktionary_name = "Japanese"
 native_name = "日本語"
 is_groq_acceptable = false
 
+[Klingon]
+technical_name = "Klingon"
+database_name = "TLH"
+llm_name = "Klingon (Romanised)"
+picker_name = "Klingon (Romanised) ⚔️"
+casual_name = "Klingon"
+weblist_topname = "Klingon"
+weblist_subname = "(Star Trek; Romanised)"
+flag_code = "KLINGON"
+supports_deepl = false
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = [{ category = "WARNING", text = "Fictional Language" }]
+clientside_features = []
+wiktionary_code = "tlh"
+wiktionary_name = "Klingon"
+native_name = "tlhIngan Hol"
+is_groq_acceptable = false
+
 [Korean]
 technical_name = "Korean"
 database_name = "KO"
@@ -705,7 +725,7 @@ is_groq_acceptable = false
 
 [Thai]
 technical_name = "Thai"
-database_name = "TH"       # ISO 639-1 code for Thai
+database_name = "TH"
 llm_name = "Thai"
 picker_name = "Thai 🇹🇭"
 casual_name = "Thai"
@@ -713,8 +733,8 @@ weblist_topname = "Thai"
 flag_code = "TH"
 supports_deepl = false
 is_rtl = false
-supports_dicts = true
-prefers_dicts = true
+supports_dicts = false
+prefers_dicts = false
 additional_tags = []
 clientside_features = []
 wiktionary_code = "th"

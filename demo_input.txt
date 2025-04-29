@@ -18,6 +18,7 @@
 ("Indonesian", "Indonesian"),
 ("Italian", "Italian"),
 ("Japanese", "Japanese"),
+("Klingon", "Klingon"),
 ("Korean", "Korean"),
 ("LatinClassical", "Latin"),
 ("Latvian", "Latvian"),
