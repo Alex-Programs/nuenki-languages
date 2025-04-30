@@ -34,7 +34,11 @@ for key, language_data in data:
             default=feature["default"],
             predicated=feature.get("predicated"),
             options=[
-                ClientsideFeatureSelectOption(op["internal"], op["display"])
+                ClientsideFeatureSelectOption(
+                    op["internal"],
+                    op["display"],
+                    op.get("outwards_hover_mode_linkage", []),
+                )
                 for op in feature.get("options", [])
             ],
         )

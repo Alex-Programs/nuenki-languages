@@ -61,6 +61,9 @@ clientside_features = [
         { internal = "Always", display = "Always" },
         { internal = "onSentenceHover", display = "When hovering near the sentence" },
         { internal = "onCharHover", display = "When hovering near a character" },
+        { internal = "onClickSpecialised", display = "Upon clicking the sentence", outwards_hover_mode_linkage = [
+            "clickSentenceRevert",
+        ] },
     ] },
 ]
 wiktionary_code = "zh"

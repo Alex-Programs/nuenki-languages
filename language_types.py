@@ -25,6 +25,7 @@ class Tag:
 class ClientsideFeatureSelectOption:
     internal: str
     display: str
+    outwards_hover_mode_linkage: list[str]
 
     def to_dict(self):
         return asdict(self)
