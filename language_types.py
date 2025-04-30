@@ -22,15 +22,28 @@ class Tag:
 
 
 @dataclass
+class ClientsideFeatureSelectOption:
+    internal: str
+    display: str
+
+    def to_dict(self):
+        return asdict(self)
+
+
+@dataclass
 class ClientsideFeature:
     type: str
     internal: str
     display: str
     default: any
     predicated: Optional[str]
+    options: Optional[list[ClientsideFeatureSelectOption]]
 
     def to_dict(self):
-        return asdict(self)
+        return {
+            **asdict(self),
+            "options": [option.to_dict() for option in self.options],
+        }
 
 
 @dataclass

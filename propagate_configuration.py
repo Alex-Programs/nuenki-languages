@@ -2,7 +2,13 @@ import toml
 import json
 from gen_webext import generate_webext_config
 from gen_frontend import generate_frontend_config
-from language_types import Language, TagType, Tag, ClientsideFeature
+from language_types import (
+    Language,
+    TagType,
+    Tag,
+    ClientsideFeature,
+    ClientsideFeatureSelectOption,
+)
 from gen_demo_input import generate_demo_config
 
 # Load TOML and parse into objects
@@ -27,6 +33,10 @@ for key, language_data in data:
             display=feature["display"],
             default=feature["default"],
             predicated=feature.get("predicated"),
+            options=[
+                ClientsideFeatureSelectOption(op["internal"], op["display"])
+                for op in feature.get("options", [])
+            ],
         )
         for feature in language_data.get("clientside_features", [])
     ]

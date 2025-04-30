@@ -57,6 +57,11 @@ additional_tags = [{ category = "GOOD", text = "Optional Pinyin" }]
 clientside_features = [
     { type = "binary", internal = "enablePinyin", display = "Pinyin", default = true },
     { type = "binary", internal = "fullPinyin", display = "Show Multiple Pinyins", default = false, predicated = "enablePinyin" },
+    { type = "select", internal = "whenToShowPinyin", display = "Show Pinyin When...", default = "Always", predicated = "enablePinyin", options = [
+        { internal = "Always", display = "Always" },
+        { internal = "onSentenceHover", display = "When hovering near the sentence" },
+        { internal = "onCharHover", display = "When hovering near a character" },
+    ] },
 ]
 wiktionary_code = "zh"
 wiktionary_name = "Chinese"
