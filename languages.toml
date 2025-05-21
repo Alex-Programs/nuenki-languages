@@ -193,10 +193,10 @@ native_name = "Military English"
 is_groq_acceptable = true
 
 [EnglishPirate]
-technical_name = "EnglishPireate"
+technical_name = "EnglishPirate"
 database_name = "EN-P"
 llm_name = "English (Pirate Speak; Overdo it for satirical purposes)"
-picker_name = "Pirate Speak 🏴‍☠️"
+picker_name = "English (Pirate) 🏴‍☠️"
 casual_name = "Pirate Speak"
 weblist_topname = "English"
 weblist_subname = "(Pirate Speak)"
@@ -216,7 +216,7 @@ is_groq_acceptable = true
 technical_name = "EnglishShakespearean"
 database_name = "EN-S"
 llm_name = "English (Shakesperean - Theatrical Early Modern English)"
-picker_name = "Shakespearean English 📜✒️"
+picker_name = "English (Shakespearean) 📜✒️"
 casual_name = "Shakespearean"
 weblist_topname = "English"
 weblist_subname = "(Shakespearean)"
