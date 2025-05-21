@@ -92,146 +92,6 @@ wiktionary_name = "Chinese"
 native_name = "中文 (繁體)"
 is_groq_acceptable = false
 
-[EnglishBoomer]
-technical_name = "EnglishBoomer"
-database_name = "EN-BMR"
-llm_name = "English (Boomer Prose; Overdo it for satirical purposes)"
-picker_name = "English (Boomer)"
-casual_name = "Boomer"
-weblist_topname = "English"
-weblist_subname = "(Boomer Prose)"
-flag_code = "GB"
-supports_deepl = false
-is_rtl = false
-supports_dicts = false
-prefers_dicts = false
-additional_tags = [{ category = "GOOD", text = "Generational Slang" }]
-clientside_features = []
-wiktionary_code = "en"
-wiktionary_name = "English"
-native_name = "Boomer Prose"
-is_groq_acceptable = true
-
-[EnglishZoomer]
-technical_name = "EnglishZoomer"
-database_name = "EN-Z"
-llm_name = "English (Zoomer Speak; Overdo it for satirical purposes)"
-picker_name = "English (Zoomer)"
-casual_name = "Zoomer"
-weblist_topname = "English"
-weblist_subname = "(Zoomer Prose)"
-flag_code = "GB"
-supports_deepl = false
-is_rtl = false
-supports_dicts = false
-prefers_dicts = false
-additional_tags = [{ category = "GOOD", text = "No cap fr fr" }]
-clientside_features = []
-wiktionary_code = "en"
-wiktionary_name = "English"
-native_name = "Zoomer Speak"
-is_groq_acceptable = true
-
-[EnglishGenAlpha]
-technical_name = "EnglishGenAlpha"
-database_name = "EN-A"
-llm_name = "English (Gen Alpha Slang; Overdo it for satirical purposes)"
-picker_name = "English (Gen Alpha)"
-casual_name = "Skibidi English"
-weblist_topname = "English"
-weblist_subname = "(Gen Alpha Slang)"
-flag_code = "GB"
-supports_deepl = false
-is_rtl = false
-supports_dicts = false
-prefers_dicts = false
-additional_tags = [{ category = "GOOD", text = "Generational Slang" }]
-clientside_features = []
-wiktionary_code = "en"
-wiktionary_name = "English"
-native_name = "Gen Alpha Slang"
-is_groq_acceptable = true
-
-[EnglishCorporate]
-technical_name = "EnglishCorporate"
-database_name = "EN-CRP"
-llm_name = "English (Corporate Prose; Overdo it for satirical purposes)"
-picker_name = "English (Corporate)"
-casual_name = "Corporate"
-weblist_topname = "English"
-weblist_subname = "(Corporate Buzzwords)"
-flag_code = "GB"
-supports_deepl = false
-is_rtl = false
-supports_dicts = false
-prefers_dicts = false
-additional_tags = [{ category = "GOOD", text = "Synergize your paradigms!" }]
-clientside_features = []
-wiktionary_code = "en"
-wiktionary_name = "English"
-native_name = "Corporate Prose"
-is_groq_acceptable = true
-
-[EnglishMilitary]
-technical_name = "EnglishMilitary"
-database_name = "EN-M"
-llm_name = "English (American Military Jargon; Overdo it for satirical purposes; remain politically correct and avoid taboos)"
-picker_name = "English (Military Jargon)"
-casual_name = "Military English"
-weblist_topname = "English"
-weblist_subname = "(Military Jargon)"
-flag_code = "US"
-supports_deepl = false
-is_rtl = false
-supports_dicts = false
-prefers_dicts = false
-additional_tags = [{ category = "GOOD", text = "Just for fun!" }]
-clientside_features = []
-wiktionary_code = "en"
-wiktionary_name = "English"
-native_name = "Military English"
-is_groq_acceptable = true
-
-[EnglishPirate]
-technical_name = "EnglishPirate"
-database_name = "EN-P"
-llm_name = "English (Pirate Speak; Overdo it for satirical purposes)"
-picker_name = "English (Pirate) 🏴‍☠️"
-casual_name = "Pirate Speak"
-weblist_topname = "English"
-weblist_subname = "(Pirate Speak)"
-flag_code = "JOLLY_ROGER"
-supports_deepl = false
-is_rtl = false
-supports_dicts = false
-prefers_dicts = false
-additional_tags = [{ category = "GOOD", text = "Arr, matey!" }]
-clientside_features = []
-wiktionary_code = "en"
-wiktionary_name = "English"
-native_name = "Pirate Speak"
-is_groq_acceptable = true
-
-[EnglishShakespearean]
-technical_name = "EnglishShakespearean"
-database_name = "EN-S"
-llm_name = "English (Shakesperean - Theatrical Early Modern English)"
-picker_name = "English (Shakespearean) 📜✒️"
-casual_name = "Shakespearean"
-weblist_topname = "English"
-weblist_subname = "(Shakespearean)"
-flag_code = "GB"
-supports_deepl = false
-is_rtl = false
-supports_dicts = false
-prefers_dicts = false
-additional_tags = [{ category = "GOOD", text = "Forsooth!" }]
-clientside_features = []
-wiktionary_code = "en"
-wiktionary_name = "English"
-native_name = "Early Modern English (Shakespearean)"
-is_groq_acceptable = true
-
 [Croatian]
 technical_name = "Croatian"
 database_name = "HR"
@@ -310,6 +170,147 @@ wiktionary_code = "nl"
 wiktionary_name = "Dutch"
 native_name = "Nederlands"
 is_groq_acceptable = false
+
+
+#[EnglishBoomer]
+#technical_name = "EnglishBoomer"
+#database_name = "EN-BMR"
+#llm_name = "English (Boomer Prose; Overdo it for satirical purposes)"
+#picker_name = "English (Boomer)"
+#casual_name = "Boomer"
+#weblist_topname = "English"
+#weblist_subname = "(Boomer Prose)"
+#flag_code = "GB"
+#supports_deepl = false
+#is_rtl = false
+#supports_dicts = false
+#prefers_dicts = false
+#additional_tags = [{ category = "GOOD", text = "Generational Slang" }]
+#clientside_features = []
+#wiktionary_code = "en"
+#wiktionary_name = "English"
+#native_name = "Boomer Prose"
+#is_groq_acceptable = true
+#
+#[EnglishZoomer]
+#technical_name = "EnglishZoomer"
+#database_name = "EN-Z"
+#llm_name = "English (Zoomer Speak; Overdo it for satirical purposes)"
+#picker_name = "English (Zoomer)"
+#casual_name = "Zoomer"
+#weblist_topname = "English"
+#weblist_subname = "(Zoomer Prose)"
+#flag_code = "GB"
+#supports_deepl = false
+#is_rtl = false
+#supports_dicts = false
+#prefers_dicts = false
+#additional_tags = [{ category = "GOOD", text = "No cap fr fr" }]
+#clientside_features = []
+#wiktionary_code = "en"
+#wiktionary_name = "English"
+#native_name = "Zoomer Speak"
+#is_groq_acceptable = true
+#
+#[EnglishGenAlpha]
+#technical_name = "EnglishGenAlpha"
+#database_name = "EN-A"
+#llm_name = "English (Gen Alpha Slang; Overdo it for satirical purposes)"
+#picker_name = "English (Gen Alpha)"
+#casual_name = "Skibidi English"
+#weblist_topname = "English"
+#weblist_subname = "(Gen Alpha Slang)"
+#flag_code = "GB"
+#supports_deepl = false
+#is_rtl = false
+#supports_dicts = false
+#prefers_dicts = false
+#additional_tags = [{ category = "GOOD", text = "Generational Slang" }]
+#clientside_features = []
+#wiktionary_code = "en"
+#wiktionary_name = "English"
+#native_name = "Gen Alpha Slang"
+#is_groq_acceptable = true
+#
+#[EnglishCorporate]
+#technical_name = "EnglishCorporate"
+#database_name = "EN-CRP"
+#llm_name = "English (Corporate Prose; Overdo it for satirical purposes)"
+#picker_name = "English (Corporate)"
+#casual_name = "Corporate"
+#weblist_topname = "English"
+#weblist_subname = "(Corporate Buzzwords)"
+#flag_code = "GB"
+#supports_deepl = false
+#is_rtl = false
+#supports_dicts = false
+#prefers_dicts = false
+#additional_tags = [{ category = "GOOD", text = "Synergize your paradigms!" }]
+#clientside_features = []
+#wiktionary_code = "en"
+#wiktionary_name = "English"
+#native_name = "Corporate Prose"
+#is_groq_acceptable = true
+#
+#[EnglishMilitary]
+#technical_name = "EnglishMilitary"
+#database_name = "EN-M"
+#llm_name = "English (American Military Jargon; Overdo it for satirical purposes; remain politically correct and avoid taboos)"
+#picker_name = "English (Military Jargon)"
+#casual_name = "Military English"
+#weblist_topname = "English"
+#weblist_subname = "(Military Jargon)"
+#flag_code = "US"
+#supports_deepl = false
+#is_rtl = false
+#supports_dicts = false
+#prefers_dicts = false
+#additional_tags = [{ category = "GOOD", text = "Just for fun!" }]
+#clientside_features = []
+#wiktionary_code = "en"
+#wiktionary_name = "English"
+#native_name = "Military English"
+#is_groq_acceptable = true
+#
+#[EnglishPirate]
+#technical_name = "EnglishPirate"
+#database_name = "EN-P"
+#llm_name = "English (Pirate Speak; Overdo it for satirical purposes)"
+#picker_name = "English (Pirate) 🏴‍☠️"
+#casual_name = "Pirate Speak"
+#weblist_topname = "English"
+#weblist_subname = "(Pirate Speak)"
+#flag_code = "JOLLY_ROGER"
+#supports_deepl = false
+#is_rtl = false
+#supports_dicts = false
+#prefers_dicts = false
+#additional_tags = [{ category = "GOOD", text = "Arr, matey!" }]
+#clientside_features = []
+#wiktionary_code = "en"
+#wiktionary_name = "English"
+#native_name = "Pirate Speak"
+#is_groq_acceptable = true
+#
+#[EnglishShakespearean]
+#technical_name = "EnglishShakespearean"
+#database_name = "EN-S"
+#llm_name = "English (Shakesperean - Theatrical Early Modern English)"
+#picker_name = "English (Shakespearean) 📜✒️"
+#casual_name = "Shakespearean"
+#weblist_topname = "English"
+#weblist_subname = "(Shakespearean)"
+#flag_code = "GB"
+#supports_deepl = false
+#is_rtl = false
+#supports_dicts = false
+#prefers_dicts = false
+#additional_tags = [{ category = "GOOD", text = "Forsooth!" }]
+#clientside_features = []
+#wiktionary_code = "en"
+#wiktionary_name = "English"
+#native_name = "Early Modern English (Shakespearean)"
+#is_groq_acceptable = true
 
 [Esperanto]
 technical_name = "Esperanto"
@@ -430,25 +431,25 @@ wiktionary_name = "Greek"
 native_name = "Ελληνικά"
 is_groq_acceptable = false
 
-[GreekHomeric]
-technical_name = "GreekHomeric"
-database_name = "EL-HOM"
-llm_name = "Homeric Greek"
-picker_name = "Homeric Greek 📜"
-casual_name = "Homeric Greek"
-weblist_topname = "Greek"
-weblist_subname = "(Ancient Homeric Prose)"
-flag_code = "GR"
-supports_deepl = false
-is_rtl = false
-supports_dicts = false
-prefers_dicts = false
-additional_tags = [{ category = "GOOD", text = "TODO" }]
-clientside_features = []
-wiktionary_code = "el"
-wiktionary_name = "Greek"
-native_name = "Ἑλληνική"
-is_groq_acceptable = false
+#[GreekHomeric]
+#technical_name = "GreekHomeric"
+#database_name = "EL-HOM"
+#llm_name = "Homeric Greek"
+#picker_name = "Homeric Greek 📜"
+#casual_name = "Homeric Greek"
+#weblist_topname = "Greek"
+#weblist_subname = "(Ancient Homeric Prose)"
+#flag_code = "GR"
+#supports_deepl = false
+#is_rtl = false
+#supports_dicts = false
+#prefers_dicts = false
+#additional_tags = [{ category = "GOOD", text = "TODO" }]
+#clientside_features = []
+#wiktionary_code = "el"
+#wiktionary_name = "Greek"
+#native_name = "Ἑλληνική"
+#is_groq_acceptable = false
 
 [Hebrew]
 technical_name = "Hebrew"

@@ -18,7 +18,8 @@ with open("languages.toml") as f:
 
 languages = []
 
-data = sorted(data.items(), key=lambda x: x[1]["picker_name"])
+# no longer sorting here
+data = data.items()
 
 for key, language_data in data:
     additional_tags = [
