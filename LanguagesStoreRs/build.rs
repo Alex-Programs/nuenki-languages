@@ -1,5 +1,6 @@
 use proc_macro2::{Ident, TokenStream};
 use quote::quote;
+use std::collections::HashMap;
 use std::fs;
 use std::path::Path;
 use toml::Value;
@@ -12,6 +13,7 @@ fn main() {
     let value: Value = toml::from_str(&toml_str).expect("Failed to parse TOML");
 
     let mut variants = Vec::new();
+    let mut from_wiktionary_map: HashMap<String, Vec<TokenStream>> = HashMap::new();
     let mut from_wiktionary = Vec::new();
     let mut to_wiktionary = Vec::new();
     let mut to_wiktionary_long = Vec::new();
@@ -31,7 +33,11 @@ fn main() {
         variants.push(quote! { #variant });
 
         let wiktionary_code = lang["wiktionary_code"].as_str().unwrap();
-        from_wiktionary.push(quote! { #wiktionary_code => Some(TargetLanguage::#variant) });
+        from_wiktionary_map
+            .entry(wiktionary_code.to_string())
+            .or_default()
+            .push(quote! { TargetLanguage::#variant });
+
         to_wiktionary.push(quote! { TargetLanguage::#variant => #wiktionary_code.to_string() });
 
         let wiktionary_name = lang["wiktionary_name"].as_str().unwrap();
@@ -61,6 +67,11 @@ fn main() {
         to_database.push(quote! { TargetLanguage::#variant => #database_name });
     }
 
+    for (code, variants) in from_wiktionary_map {
+        let entries = quote! { vec![#(#variants),*] };
+        from_wiktionary.push(quote! { #code => #entries });
+    }
+
     let generated = quote! {
         #[derive(Serialize, Deserialize, Debug, EnumIter, PartialEq, Eq, Hash, Clone, Savefile)]
         pub enum TargetLanguage {
@@ -68,10 +79,10 @@ fn main() {
         }
 
         impl TargetLanguage {
-            pub fn from_wiktionary_language_code_n(code: &str) -> Option<Self> {
+            pub fn from_wiktionary_language_code_n(code: &str) -> Vec<Self> {
                 match code {
                     #(#from_wiktionary,)*
-                    _ => None,
+                    _ => vec![],
                 }
             }
 

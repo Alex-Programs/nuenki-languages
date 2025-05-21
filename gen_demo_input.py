@@ -9,3 +9,11 @@ def generate_demo_config(languages):
 
     with open("demo_input.txt", "w") as f:
         f.write(out)
+
+    out = ""
+    for language in languages:
+        text = f'"{language.casual_name}",'
+        out += text + "\n"
+
+    with open("seo_input.txt", "w") as f:
+        f.write(out)
