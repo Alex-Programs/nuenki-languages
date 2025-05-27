@@ -507,7 +507,7 @@ clientside_features = []
 wiktionary_code = "hu"
 wiktionary_name = "Hungarian"
 native_name = "Magyar"
-is_groq_acceptable = false
+is_groq_acceptable = true
 
 [Indonesian]
 technical_name = "Indonesian"
