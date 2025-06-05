@@ -60,6 +60,7 @@ for key, language_data in data:
         is_rtl=language_data["is_rtl"],
         supports_dicts=language_data["supports_dicts"],
         prefers_dicts=language_data["prefers_dicts"],
+        supports_hybrid_translator=language_data["supports_hybrid_translator"],
         additional_tags=additional_tags,
         clientside_features=clientside_features,
         wiktionary_code=language_data["wiktionary_code"],

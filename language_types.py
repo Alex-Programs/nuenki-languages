@@ -66,6 +66,7 @@ class Language:
     wiktionary_name: str
     native_name: str
     is_groq_acceptable: bool
+    supports_hybrid_translator: bool
     additional_tags: list[Tag] = field(default_factory=list)
     clientside_features: list[ClientsideFeature] = field(default_factory=list)
 

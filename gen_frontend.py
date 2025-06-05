@@ -13,8 +13,9 @@ def generate_frontend_config(languages):
             obj["subtitle"] = language.weblist_subname
 
         obj["flag_code"] = language.flag_code
+        obj["supports_hybrid_translator"] = language.supports_hybrid_translator
 
-        if language.deepl_name == None:
+        if language.deepl_name == None and language.is_groq_acceptable == False:
             language.additional_tags.append(
                 Tag(type=TagType.WARNING, text="High Latency")
             )
