@@ -202,7 +202,7 @@ supports_hybrid_translator = true
 [EnglishZoomer]
 technical_name = "EnglishZoomer"
 database_name = "EN-Z"
-llm_name = "English (Zoomer Speak; Overdo it for satirical purposes; don't make sentences more than 1.5x longer)"
+llm_name = "English (Zoomer Speak; Overdo it for satirical purposes; don't make it verbose; don't mention you're translating)"
 picker_name = "English (Zoomer) 🇬🇧"
 casual_name = "Zoomer"
 weblist_topname = "English"
@@ -243,7 +243,7 @@ supports_hybrid_translator = false
 [EnglishCorporate]
 technical_name = "EnglishCorporate"
 database_name = "EN-CRP"
-llm_name = "English (Corporate Prose; Overdo it for satirical purposes; don't make sentences more than 2x longer)"
+llm_name = "English (Corporate Prose; Overdo it for satirical purposes; don't make it verbose; don't mention you're translating)"
 picker_name = "English (Corporate) 🇺🇸"
 casual_name = "Corporate"
 weblist_topname = "English"
@@ -284,7 +284,7 @@ supports_hybrid_translator = false
 [EnglishPirate]
 technical_name = "EnglishPirate"
 database_name = "EN-P"
-llm_name = "English (Pirate Speak; Overdo it for satirical purposes; don't make sentences more than 1.5x longer)"
+llm_name = "English (Pirate Speak; Overdo it for satirical purposes; don't make it verbose; don't mention you're translating)"
 picker_name = "English (Pirate) 🏴‍☠️"
 casual_name = "Pirate Speak"
 weblist_topname = "English"

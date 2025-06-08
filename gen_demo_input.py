@@ -4,7 +4,13 @@ import json
 def generate_demo_config(languages):
     out = ""
     for language in languages:
-        text = f'("{language.technical_name}", "{language.casual_name}"),'
+        if language.supports_hybrid_translator:
+            hybrid_text = "True"
+        else:
+            hybrid_text = "False"
+        text = (
+            f'("{language.technical_name}", "{language.casual_name}", {hybrid_text}),'
+        )
         out += text + "\n"
 
     with open("demo_input.txt", "w") as f:
