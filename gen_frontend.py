@@ -14,6 +14,7 @@ def generate_frontend_config(languages):
 
         obj["flag_code"] = language.flag_code
         obj["supports_hybrid_translator"] = language.supports_hybrid_translator
+        obj["casual_name"] = language.casual_name
 
         if language.deepl_name == None and language.is_groq_acceptable == False:
             language.additional_tags.append(

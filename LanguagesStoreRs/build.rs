@@ -24,6 +24,8 @@ fn main() {
     let mut to_database = Vec::new();
     let mut to_native = Vec::new();
     let mut groq_acceptable = Vec::new();
+    let mut is_groq_only = Vec::new();
+    let mut supports_hybrid_translator = Vec::new();
 
     for (key, lang) in value.as_table().unwrap() {
         let lang = lang.as_table().unwrap();
@@ -53,6 +55,19 @@ fn main() {
 
         let is_groq_acceptable_val = lang["is_groq_acceptable"].as_bool().unwrap();
         groq_acceptable.push(quote! { TargetLanguage::#variant => #is_groq_acceptable_val });
+
+        let is_groq_only_val = lang
+            .get("is_groq_only")
+            .and_then(|v| v.as_bool())
+            .unwrap_or(false);
+        is_groq_only.push(quote! { TargetLanguage::#variant => #is_groq_only_val });
+
+        let supports_hybrid_translator_val = lang
+            .get("supports_hybrid_translator")
+            .and_then(|v| v.as_bool())
+            .unwrap_or(false);
+        supports_hybrid_translator
+            .push(quote! { TargetLanguage::#variant => #supports_hybrid_translator_val });
 
         let deepl_name = lang
             .get("deepl_name")
@@ -131,6 +146,18 @@ fn main() {
             pub fn is_groq_acceptable(&self) -> bool {
                 match self {
                     #(#groq_acceptable,)*
+                }
+            }
+
+            pub fn is_groq_only(&self) -> bool {
+                match self {
+                    #(#is_groq_only,)*
+                }
+            }
+
+            pub fn supports_hybrid_translator(&self) -> bool {
+                match self {
+                    #(#supports_hybrid_translator,)*
                 }
             }
 

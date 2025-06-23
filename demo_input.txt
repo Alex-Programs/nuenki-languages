@@ -42,3 +42,4 @@
 ("Ukrainian", "Ukrainian", True),
 ("Vietnamese", "Vietnamese", True),
 ("Welsh", "Welsh", True),
+("Wydo", "Wydo", False),

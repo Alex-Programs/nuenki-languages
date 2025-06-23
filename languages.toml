@@ -19,6 +19,7 @@ wiktionary_name = "Arabic"
 native_name = "العربية"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Bulgarian]
 technical_name = "Bulgarian"
@@ -40,6 +41,7 @@ wiktionary_name = "Bulgarian"
 native_name = "Български"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Chinese]
 technical_name = "Chinese"
@@ -73,6 +75,7 @@ wiktionary_name = "Chinese"
 native_name = "中文 (简体)"
 is_groq_acceptable = true
 supports_hybrid_translator = true
+is_groq_only = false
 
 [ChineseTraditional]
 technical_name = "ChineseTraditional"
@@ -95,6 +98,7 @@ wiktionary_name = "Chinese"
 native_name = "中文 (繁體)"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Croatian]
 technical_name = "Croatian"
@@ -115,6 +119,7 @@ wiktionary_name = "Serbo-Croatian"
 native_name = "Hrvatski"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Czech]
 technical_name = "Czech"
@@ -136,6 +141,7 @@ wiktionary_name = "Czech"
 native_name = "Čeština"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Danish]
 technical_name = "Danish"
@@ -157,6 +163,7 @@ wiktionary_name = "Danish"
 native_name = "Dansk"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Dutch]
 technical_name = "Dutch"
@@ -178,6 +185,7 @@ wiktionary_name = "Dutch"
 native_name = "Nederlands"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 #[EnglishBoomer]
 #technical_name = "EnglishBoomer"
@@ -219,6 +227,7 @@ wiktionary_name = "English"
 native_name = "Zoomer Speak"
 is_groq_acceptable = true
 supports_hybrid_translator = false
+is_groq_only = false
 
 #[EnglishGenAlpha]
 #technical_name = "EnglishGenAlpha"
@@ -260,6 +269,7 @@ wiktionary_name = "English"
 native_name = "Corporate Prose"
 is_groq_acceptable = true
 supports_hybrid_translator = false
+is_groq_only = false
 
 #[EnglishMilitary]
 #technical_name = "EnglishMilitary"
@@ -301,6 +311,7 @@ wiktionary_name = "English"
 native_name = "Pirate Speak"
 is_groq_acceptable = true
 supports_hybrid_translator = false
+is_groq_only = false
 
 #
 #[EnglishShakespearean]
@@ -342,6 +353,7 @@ wiktionary_name = "Esperanto"
 native_name = "Esperanto"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Estonian]
 technical_name = "Estonian"
@@ -363,6 +375,7 @@ wiktionary_name = "Estonian"
 native_name = "Eesti"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Finnish]
 technical_name = "Finnish"
@@ -384,6 +397,7 @@ wiktionary_name = "Finnish"
 native_name = "Suomi"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [French]
 technical_name = "French"
@@ -405,6 +419,7 @@ wiktionary_name = "French"
 native_name = "Français"
 is_groq_acceptable = true
 supports_hybrid_translator = true
+is_groq_only = false
 
 [German]
 technical_name = "German"
@@ -426,6 +441,7 @@ wiktionary_code = "de"
 wiktionary_name = "German"
 is_groq_acceptable = true
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Greek]
 technical_name = "Greek"
@@ -447,6 +463,7 @@ wiktionary_name = "Greek"
 native_name = "Ελληνικά"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 #[GreekHomeric]
 #technical_name = "GreekHomeric"
@@ -487,6 +504,7 @@ wiktionary_name = "Hebrew"
 native_name = "עברית"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Hindi]
 technical_name = "Hindi"
@@ -507,6 +525,7 @@ wiktionary_name = "Hindi"
 native_name = "हिन्दी"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Hungarian]
 technical_name = "Hungarian"
@@ -528,6 +547,7 @@ wiktionary_name = "Hungarian"
 native_name = "Magyar"
 is_groq_acceptable = true
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Indonesian]
 technical_name = "Indonesian"
@@ -549,6 +569,7 @@ wiktionary_name = "Indonesian"
 native_name = "Indonesia"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Italian]
 technical_name = "Italian"
@@ -570,6 +591,7 @@ wiktionary_name = "Italian"
 native_name = "Italiano"
 is_groq_acceptable = true
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Japanese]
 technical_name = "Japanese"
@@ -593,6 +615,7 @@ wiktionary_name = "Japanese"
 native_name = "日本語"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Klingon]
 technical_name = "Klingon"
@@ -614,6 +637,7 @@ wiktionary_name = "Klingon"
 native_name = "tlhIngan Hol"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Korean]
 technical_name = "Korean"
@@ -635,6 +659,7 @@ wiktionary_name = "Korean"
 native_name = "한국어"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [LatinClassical]
 technical_name = "LatinClassical"
@@ -656,6 +681,7 @@ wiktionary_name = "Latin"
 native_name = "Latina"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Latvian]
 technical_name = "Latvian"
@@ -677,6 +703,7 @@ wiktionary_name = "Latvian"
 native_name = "Latviešu"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Lithuanian]
 technical_name = "Lithuanian"
@@ -698,6 +725,7 @@ wiktionary_name = "Lithuanian"
 native_name = "Lietuvių"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Norwegian]
 technical_name = "Norwegian"
@@ -719,6 +747,7 @@ wiktionary_name = "Norwegian"
 native_name = "Norsk"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Persian]
 technical_name = "Persian"
@@ -739,6 +768,7 @@ wiktionary_name = "Persian"
 native_name = "فارسی"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Polish]
 technical_name = "Polish"
@@ -760,6 +790,7 @@ wiktionary_name = "Polish"
 native_name = "Polski"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [PortugueseBrazil]
 technical_name = "PortugueseBrazil"
@@ -782,6 +813,7 @@ wiktionary_name = "Portuguese"
 native_name = "Português"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [PortuguesePortugal]
 technical_name = "PortuguesePortugal"
@@ -804,6 +836,7 @@ wiktionary_name = "Portuguese"
 native_name = "Português"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Romanian]
 technical_name = "Romanian"
@@ -825,6 +858,7 @@ wiktionary_name = "Romanian"
 native_name = "Română"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Russian]
 technical_name = "Russian"
@@ -846,6 +880,7 @@ wiktionary_name = "Russian"
 native_name = "Русский"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Slovakian]
 technical_name = "Slovakian"
@@ -867,6 +902,7 @@ wiktionary_name = "Slovak"
 native_name = "Slovenčina"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Slovenian]
 technical_name = "Slovenian"
@@ -888,6 +924,7 @@ wiktionary_name = "Slovenian"
 native_name = "Slovenščina"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Spanish]
 technical_name = "Spanish"
@@ -909,6 +946,7 @@ wiktionary_name = "Spanish"
 native_name = "Español"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Swedish]
 technical_name = "Swedish"
@@ -930,6 +968,7 @@ wiktionary_name = "Swedish"
 native_name = "Svenska"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Thai]
 technical_name = "Thai"
@@ -950,6 +989,7 @@ wiktionary_name = "Thai"
 native_name = "ภาษาไทย"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Turkish]
 technical_name = "Turkish"
@@ -971,6 +1011,7 @@ wiktionary_name = "Turkish"
 native_name = "Türkçe"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Ukrainian]
 technical_name = "Ukrainian"
@@ -992,6 +1033,7 @@ wiktionary_name = "Ukrainian"
 native_name = "Українська"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
 
 [Vietnamese]
 technical_name = "Vietnamese"
@@ -1012,6 +1054,8 @@ wiktionary_name = "Vietnamese"
 native_name = "Tiếng Việt"
 is_groq_acceptable = true
 supports_hybrid_translator = true
+is_groq_only = false
+
 
 [Welsh]
 technical_name = "Welsh"
@@ -1033,3 +1077,28 @@ wiktionary_name = "Welsh"
 native_name = "Cymraeg"
 is_groq_acceptable = false
 supports_hybrid_translator = true
+is_groq_only = false
+
+[Wydo]
+technical_name = "Wydo"
+database_name = "E_WY"
+llm_name = "Wydo"
+picker_name = "Wydo (Experimental)"
+casual_name = "Wydo"
+weblist_topname = "Wydo"
+weblist_subname = "(Experimental Conlang)"
+flag_code = "WYDO"
+supports_deepl = false
+is_rtl = false
+supports_dicts = false
+prefers_dicts = false
+additional_tags = [
+    { category = "WARNING", text = "Highly Experimental Conlang" },
+]
+clientside_features = []
+wiktionary_code = "NONE"
+wiktionary_name = "NONE"
+native_name = "Wydo"
+is_groq_acceptable = true
+supports_hybrid_translator = false
+is_groq_only = true

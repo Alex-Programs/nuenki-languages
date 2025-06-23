@@ -42,3 +42,4 @@
 "Ukrainian",
 "Vietnamese",
 "Welsh",
+"Wydo",
